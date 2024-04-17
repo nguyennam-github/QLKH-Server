@@ -3,8 +3,8 @@ D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\models\UserList.java
 D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\utils\FileUtils.java
 D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\models\Product.java
 D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\dao\ProductDAO.java
-D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\main\Server.java
 D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\models\ProductList.java
+D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\services\Client.java
 D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\dao\UserDAO.java
-D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\thread\ControlBus.java
-D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\thread\Client.java
+D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\main\App.java
+D:\Projects\Java\QLKH-Server\src\main\java\hvan\qlkh\services\ControlBus.java

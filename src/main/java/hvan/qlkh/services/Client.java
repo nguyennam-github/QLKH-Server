@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package hvan.qlkh.thread;
+package hvan.qlkh.services;
 
 import hvan.qlkh.dao.ProductDAO;
 import hvan.qlkh.dao.UserDAO;
@@ -54,19 +54,25 @@ public class Client implements Runnable{
     @Override
     public void run() {
         try {
-            // Mở luồng vào ra trên Socket tại Server.
+            
             is = new BufferedReader(new InputStreamReader(client.getInputStream()));
             os = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
+            
             String request;
             String response;
+            
             while (!isClosed) {
+                
                 request = is.readLine();
+                
                 if (request == null) {
                     break;
                 }
                 else{
+                    
                     String method = request.substring(0, request.indexOf("/"));
                     String payload = request.substring(request.indexOf("/") + 1);
+                    
                     if(method.equals("Get")){
                         ProductList pl = (ProductList) FileUtils.readXMLFile("product.xml", ProductList.class);
                         StringWriter sw = new StringWriter();
@@ -126,12 +132,13 @@ public class Client implements Runnable{
                         response =  "Reset/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
+                    
                     if(method.equals("Get-User")){
                         UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset-User/" + xmlString;
+                        response =  "Reset-User//" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Create-User")){
@@ -151,7 +158,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset-User/" + xmlString;
+                        response =  "Reset-User//" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Update-User")){
@@ -172,7 +179,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset-User/" + xmlString;
+                        response =  "Reset-User/" + username + "/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Delete-User")){
@@ -182,7 +189,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset-User/" + xmlString;
+                        response =  "Reset-User/" + username + "/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                 }

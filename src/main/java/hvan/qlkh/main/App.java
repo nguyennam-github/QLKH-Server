@@ -4,8 +4,8 @@
 
 package hvan.qlkh.main;
 
-import hvan.qlkh.thread.Client;
-import hvan.qlkh.thread.ControlBus;
+import hvan.qlkh.services.Client;
+import hvan.qlkh.services.ControlBus;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -18,51 +18,48 @@ import javax.xml.bind.JAXBException;
  *
  * @author PC
  */
-public class Server {
+public class App {
 
     public static Socket socket;
     public static ServerSocket serverSocket;
     
     public static void main(String[] args) throws IOException, JAXBException, ClassNotFoundException {
+        
         ServerSocket server = null;
-        System.out.println("Server is waiting to accept user...");
         int id = 0;
-
-        // Mở một ServerSocket tại cổng 7777.
-        // Chú ý bạn không thể chọn cổng nhỏ hơn 1023 nếu không là người dùng
-        // đặc quyền (privileged users (root)).
+        System.out.println("Server is waiting to accept user...");
+        
         try {
             server = new ServerSocket(7777);
         } catch (IOException e) {
             System.out.println(e);
             System.exit(1);
         }
+        
         ThreadPoolExecutor executor = new ThreadPoolExecutor(
-                10, // corePoolSize
-                100, // maximumPoolSize
-                10, // thread timeout
+                10,
+                100,
+                10,
                 TimeUnit.SECONDS,
-                new ArrayBlockingQueue<>(8) // queueCapacity
+                new ArrayBlockingQueue<>(8)
         );
+        
         try {
             while (true) {
-                // Chấp nhận một yêu cầu kết nối từ phía Client.
-                // Đồng thời nhận được một đối tượng Socket tại server.
                 socket = server.accept();
                 Client client = new Client(socket, id++);
                 ControlBus.getInstance().add(client);
-                System.out.println("Số thread đang chạy là: " + ControlBus.getInstance().getLength());
+                System.out.println("Process with id=" + id + "is running");
                 executor.execute(client);
                 
             }
         } catch (IOException ex) {
-            ex.printStackTrace();
         } finally {
             try {
                 server.close();
             } catch (IOException ex) {
-                ex.printStackTrace();
             }
         }
+        
     }
 }

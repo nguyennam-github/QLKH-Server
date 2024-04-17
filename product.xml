@@ -4,7 +4,7 @@
         <id>DT01</id>
         <name>iPhone 11</name>
         <category>Điện thoại</category>
-        <quantity>15</quantity>
+        <quantity>30</quantity>
         <price>10000000</price>
         <exp-date>2027-01-01T00:00:00+07:00</exp-date>
         <manafacturer>Apple Inc.</manafacturer>
@@ -200,7 +200,7 @@ Tin vui cho những ai thích sử dụng camera trước, Apple đã tích hợ
         <id>DT04</id>
         <name>iPhone 13 Pro</name>
         <category>Điện thoại</category>
-        <quantity>10</quantity>
+        <quantity>5</quantity>
         <price>21000000</price>
         <exp-date>2029-01-01T00:00:00+07:00</exp-date>
         <manafacturer>Apple Inc.</manafacturer>
@@ -256,137 +256,12 @@ Tin vui cho những ai thích sử dụng camera trước, Apple đã tích hợ
         <id>DT05</id>
         <name>iPhone 15</name>
         <category>Điện thoại</category>
-        <quantity>15</quantity>
+        <quantity>20</quantity>
         <price>25000000</price>
         <exp-date>2030-01-01T00:00:00+07:00</exp-date>
         <manafacturer>Apple Inc.</manafacturer>
         <thumbnail>D:\Projects\Java\QLKH\src\main\resources\images\iPhone-15.png</thumbnail>
-        <description>Với iPhone 15, bạn sẽ được tận hưởng những trải nghiệm cao cấp trên một thiết bị bền bỉ và thanh lịch. Sản phẩm gây ấn tượng với màn hình Dynamic Island, camera độ phân giải siêu cao cùng nhiều chế độ quay chụp xuất sắc. Nhờ cổng USB-C, trải nghiệm kết nối của iPhone 15 thực sự khác biệt so với các thế hệ trước.&#13;
-&#13;
-Trải nghiệm cao cấp trên iPhone 15&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-Trải nghiệm Dynamic Island độc đáo và đa năng&#13;
-Cơ chế hiển thị Dynamic Island tạo nên sự khác biệt lớn trong cách bạn trải nghiệm và sử dụng các tính năng của iPhone 15. Cấu trúc độc đáo này sẽ biến hóa linh hoạt để hiển thị thông báo, tin nhắn, cuộc gọi đến, phần trăm pin khi sạc, thông tin chuyến bay và vô số điều thú vị khác.&#13;
-&#13;
-Đây sẽ là yếu tố tác động mạnh đến cách bạn tương tác với chiếc điện thoại, đồng thời là điểm nhấn quan trọng trong cấu trúc thẩm mỹ tổng thể trên iPhone 15, mang lại cảm nhận lịch thiệp, hiện đại mà cực kỳ hữu dụng trong trải nghiệm hàng ngày.&#13;
-&#13;
-Trải nghiệm Dynamic Island độc đáo cùng iPhone 15&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-Thiết kế thanh lịch với độ bền bỉ khó tin&#13;
-iPhone 15 dễ dàng tạo thiện cảm ngay từ ấn tượng đầu tiên bởi phong cách thiết kế thân thiện. Sản phẩm có 5 màu sắc để lựa chọn gồm: Hồng, Xanh lá, Vàng, Xanh lam và Đen. Tất cả đều thật nhẹ nhàng, tinh tế, thể hiện rõ ràng tinh thần thanh lịch mà chiếc điện thoại hướng tới.&#13;
-&#13;
-Sản phẩm được hoàn thiện chỉn chu đến từng chi tiết và cực kỳ chú trọng vào chất liệu nhằm mang tới độ bền bỉ tối ưu. iPhone 15 có khung viền nhôm chuẩn hàng không vũ trụ, mặt sau của thiết bị làm từ kính pha màu chế tạo từ quy trình trao đổi ion kép cực bền, mặt trước với kính Ceramic Shield vượt trội về khả năng chịu lực so với mọi smartphone khác hiện nay.&#13;
-&#13;
-iPhone 15 Thiết kế thanh lịch với độ bền bỉ khó tin&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-Camera 48MP cho những khuôn hình tuyệt đẹp&#13;
-So với thế hệ tiền nhiệm, iPhone 15 đem lại trải nghiệm quay chụp ở đẳng cấp hoàn toàn khác biệt khi nâng cấp độ phân giải camera chính lên gấp 4 lần. Camera 48MP này có khả năng chụp được những khuôn hình cực độ sắc nét, thể hiện sự xuất sắc dù bạn thực hiện thao tác chụp nhanh cho đến tác vụ chụp phong cảnh.&#13;
-&#13;
-Ngoài ra, hệ thống camera của iPhone 15 còn có thêm một ống kính tele với ba mức thu phóng linh hoạt là 2x, 1x và 0.5x để bạn thực hiện thao tác zoom ở nhiều điều kiện khác nhau. Tùy theo nhu cầu, người dùng iPhone 15 còn có thêm nhiều sự lựa chọn về chức năng như Chế độ Ban Đêm hoặc HDR thông minh.&#13;
-&#13;
-iPhone 15 cho những khuôn hình tuyệt đẹp&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-Trải nghiệm chụp chân dung thực sự ấn tượng&#13;
-Với tính năng Photonic Engine, iPhone 15 thể hiện năng lực chụp chân dung cao cấp. Cơ chế hoạt động của Photonic Engine nằm ở việc tận dụng những điểm ảnh độ phân giải siêu cao để kết hợp với một khuôn hình khác nhằm tối ưu hiệu quả bắt sáng. Nhờ đó, người dùng sẽ có được bức ảnh siêu sắc nét với kích thước lưu trữ rất nhỏ.&#13;
-&#13;
-Cơ chế nhận diện tự động cho phép iPhone 15 xác định chủ thể khuôn hình như người hoặc thú cưng, sau đó tự kích hoạt cơ chế làm mờ nhằm gia tăng chiều sâu bối cảnh hình ảnh.&#13;
-&#13;
-Tận hưởng thời lượng pin hết sức dài lâu&#13;
-iPhone 15 tạo điều kiện để người dùng thoải mái trải nghiệm mọi tính năng và sử dụng các tác vụ hỗn hợp xuyên suốt ngày dài. Sản phẩm có thể phát video không ngừng nghỉ trong 20 tiếng đồng hồ liên tục và đạt thời lượng xem video nhiều hơn iPhone 12 tới ba giờ.&#13;
-&#13;
-Với thời lượng sử dụng ấn tượng này, bạn không cần phải bận tâm nhiều đến việc mang theo bộ sạc như trước nữa. Những lợi thế về chip xử lý và khả năng vận hành tiết kiệm pin giúp iPhone 15 có được lợi thế thực sự mạnh mẽ về pin.&#13;
-&#13;
-Tận hưởng thời lượng pin hết sức dài lâu của iPhone 15&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-A16 Bionic ẩn chứa nguồn hiệu năng lớn lao&#13;
-Sức mạnh của iPhone 15 được quyết định bởi con chip A16 Bionic - đây là con chip đã sớm thể hiện nguồn sức mạnh tuyệt vời và độ hiệu quả trong thực tế. Không chỉ hỗ trợ chơi game tuyệt vời và giải quyết các tác vụ nặng trong chớp mắt, A16 Bionic còn giúp iPhone 15 có thời lượng pin tuyệt vời, đồng thời hỗ trợ tạo ra những bức ảnh chân dung đẹp xuất sắc.&#13;
-&#13;
-Đặc biệt, hệ thống GPU trên chip A16 Bionic vượt trội 40% sức mạnh so với GPU được dùng trên dòng sản phẩm iPhone 12 trước kia. Đây là ưu thế vượt trội giúp người dùng có được trải nghiệm game thực sự tốt và chỉnh sửa ảnh, video dễ dàng.&#13;
-&#13;
-iPhone 15 sở hữu nguồn hiệu năng lớn lao&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-Sạc và kết nối đa năng thông qua USB-C&#13;
-Sự khác biệt lớn của iPhone 15 nằm ở việc sản phẩm sử dụng cổng tương tác USB-C chưa từng có trên mọi thế hệ iPhone trước. Đây là cơ chế kết nối đa năng với tốc độ truyền tải năng lượng và dữ liệu tuyệt vời.&#13;
-&#13;
-Với cổng USB-C, bạn có thể dùng chung một cáp kết nối cho cả iPhone 15 và MacBook, iPad. Không chỉ vậy, người dùng hoàn toàn có thể tận dụng chiếc điện thoại để sạc pin ngược cho các phụ kiện tương thích như tai nghe AirPods và đồng hồ Apple Watch một cách tiện lợi.&#13;
-&#13;
-iPhone 15 sạc và kết nối đa năng thông qua USB-C&#13;
-&#13;
- Nguồn ảnh: Apple&#13;
-&#13;
-Các phiên bản của iPhone 15 series&#13;
-iPhone 15 series bao gồm 4 phiên bản là iPhone 15, iPhone 15 Plus, iPhone 15 Pro và iPhone 15 Pro Max. Mỗi sản phẩm lại có nét đặc trưng và thu hút riêng.&#13;
-&#13;
-Dòng iPhone 15 có hai phiên bản màn hình, bao gồm màn hình 6,1 inch được sử dụng cho iPhone 15 và màn hình 6,7 inch trên iPhone 15 Plus. Cả hai phiên bản màn hình này đều sử dụng tấm nền Super Retina XDR OLED có viền siêu mỏng xung quanh, thiết kế Dynamic Island, độ phân giải Full HD+, tần số quét 60Hz, hỗ trợ HDR10 và Dolby Vision.n dung lượng cao, phù hợp với những người dùng thường xuyên chụp ảnh và quay video.&#13;
-&#13;
-Dòng iPhone 15 Plus vẫn là một chiếc điện thoại màn hình lớn cùng thời lượng pin ấn tượng. Màn hình iPhone 15 Plus có kích thước 6,7 inch Super Retina XDR, tuy nhiên giờ đây đã được nâng cấp thêm Dynamic Island. Đây là khu vực sẽ hiển thị các thông báo và những thông tin nhanh để bạn sử dụng iPhone tiện lợi hơn.&#13;
-&#13;
-Các phiên bản của iPhone 15 series&#13;
-&#13;
-Dòng iPhone 15 Pro bao gồm những chiếc điện thoại cao cấp nhất của Apple trong năm 2023, với giá bán cao hơn so với dòng sản phẩm tiêu chuẩn. Dòng sản phẩm này có ngôn ngữ thiết kế tương tự như dòng iPhone 15 tiêu chuẩn. Tuy nhiên, Apple đã chuyển sang sử dụng khung titanium cho những điện thoại iPhone 15 Pro, mang đến trải nghiệm cứng cáp và cao cấp hơn.&#13;
-&#13;
-Với dòng iPhone 15 Pro Max thì đây chính là chiếc iPhone cao cấp nhất hiện nay. Không chỉ màn hình lớn nhất, thời lượng pin tốt nhất, iPhone 15 Pro Max còn gây ấn tượng bởi loạt tính năng mới như thiết kế khung Titan, bộ vi xử lý A17 Pro mạnh nhất hiện nay, camera zoom quang học Tele 5x, nút Tác vụ hoàn toàn mới.&#13;
-&#13;
-iPhone 15 có gì mới?&#13;
-Về màn hình: Vẫn sử dụng màn hình 6.1 inch gọn gàng và công nghệ Super Retina XDR, nhưng iPhone 15 đã chuyển sang thiết kế Dynamic Island độc đáo. Độ sáng HDR lên đến 1600 nits giúp hiển thị hình ảnh và video rõ nét. Đặc biệt, độ sáng khi hiển thị ngoài trời sẽ đạt tới 2000 nits. Màn hình sản phẩm được bảo vệ bởi mặt kính Ceramic Shield với độ cứng vượt trội mọi dòng smartphone khác.&#13;
-&#13;
-Về camera: iPhone 15 sở hữu camera tân tiến với camera chính 48MP, kết hợp công nghệ quad-pixel và Focus Pixels 100% để bắt nét nhanh hơn. Hai camera còn lại là bao gồm camera Ultra Wide 12MP góc siêu rộng và camera tele 12MP hỗ trợ thu phóng.&#13;
-&#13;
-Những điểm mới trên iPhone 15&#13;
-&#13;
-Về thiết kế: iPhone 15 có phong cách mới và tinh tế hơn, sử dụng mặt lưng gia cố bằng kính với độ bền cao, các cạnh bên của máy bo tròn đem lại cảm giác dễ chịu khi cầm nắm.&#13;
-&#13;
-Về cấu hình: iPhone 15 được trang bị chip A16 Bionic mạnh mẽ gồm hai lõi hiệu năng cao đi kèm bốn lõi tiết kiệm năng lượng. Bộ vi xử lý này bao gồm CPU 6 lõi và GPU 5 lõi với băng thông nhiều hơn 50%.&#13;
-&#13;
-Về kết nối: Khả năng kết nối của iPhone 15 cũng hết sức mạnh mẽ khi sử dụng cổng USB-C – tiêu chuẩn tương tác vật lý được lưu hành phổ biến nhất trên toàn cầu hiện tại.&#13;
-&#13;
-iPhone 15 Plus có gì mới?&#13;
-Về màn hình: So với iPhone 15, phiên bản iPhone 15 Plus có màn hình lớn hơn - ở mức 6.7 inch. Sản phẩm vẫn sử dụng công nghệ hiển thị Super Retina XDR với cấu trúc Dynamic Island tạo điểm nhấn. Về khả năng hiển thị, màn hình iPhone 15 Plus có thể đạt độ sáng cực đại là 2000 nits khi hoạt động ngoài trời – gấp đôi so với thế hệ trước.&#13;
-&#13;
-Về camera: Sự xuất hiện của camera chính 48MP với cảm biến quad-pixel cùng công nghệ Focus Pixels 100% khiến iPhone 15 Plus có khả năng bắt nét tốc độ cao. Ngoài ra, sản phẩm còn sở hữu hai camera bổ trợ hiệu quả gồm camera Ultra Wide 12MP và camera tele 12MP.&#13;
-&#13;
-Về thiết kế: iPhone 15 Plus có thân máy rộng do sở hữu màn hình 6.7 inch, sản phẩm có cấu trúc thân máy kim loại với hai mặt kính trước/sau, được gia cố để tối ưu độ bền. Đặc biệt, chiếc điện thoại này có thể kháng nước và kháng bụi rất tốt.&#13;
-&#13;
-Về cấu hình: Chip A16 Bionic của iPhone 15 Plus bao gồm 6 lõi CPU nhanh hơn thế hệ cũ cùng 5 lõi GPU, được cải tiến nhằm thúc đẩy hiệu suất băng thông thêm 50%, từ đó giúp trải nghiệm đồ họa mượt mà hơn khi chơi game và xem video.&#13;
-&#13;
-Về kết nối: Giống như iPhone 15, phiên bản iPhone 15 Plus cũng sử dụng cổng USB-C với năng lực sạc mạnh mẽ và hỗ trợ kết nối hiệu quả cao. Nhờ cổng USB-C, người dùng dễ dàng sạc tai nghe AirPods thông qua nguồn năng lượng của iPhone một cách đơn giản.&#13;
-&#13;
-iPhone 15 Pro có gì mới?&#13;
-Về màn hình: iPhone 15 Pro được trang bị màn hình 6.1 inch với Dynamic Island biến tấu linh hoạt. Sản phẩm được rút gọn viền bao quanh không gian hiển thị nhằm tối ưu cảm nhận nhìn ngắm và quan sát. Độ phân giải 2556 x 1179 pixel đảm bảo bạn sẽ có được những trải nghiệm hình ảnh tuyệt vời.&#13;
-&#13;
-Về camera: Trên mặt sau, iPhone 15 Pro có hệ thống camera bao gồm camera chính 48MP, camera Ultra Wide 12MP, camera tele 2x 12MP và camera tele 3x 12MP. Công nghệ OIS thế hệ mới giúp chống rung tốt hơn, sự kết hợp giữa các camera tạo nên hiệu ứng chụp ảnh sắc nét, tối ưu trong nhiều điều kiện.&#13;
-&#13;
-Về thiết kế: Sự khác biệt lớn ở thiết kế iPhone 15 Pro là việc sản phẩm sử dụng khung vỏ Titan rất bền và nhẹ, kết hợp với mặt kính trước Ceramic Shield nhằm tối ưu khả năng chống chịu va đập. Ngoài ra chiếc điện thoại còn có điểm nhấn nằm ở nút Action mới, có thể đảm nhận nhiều nhiệm vụ khác nhau tùy theo ý muốn của người dùng và thay thế cho nút gạt âm thanh trước đây.&#13;
-&#13;
-Về cấu hình: Cấu hình iPhone 15 Pro rất mạnh mẽ với chip A17 Pro. Con chip mới là bộ vi xử lý 3nm đầu tiên, được cải tiến nhằm tối ưu CPU nhanh hơn 10%, GPU nhanh hơn 20% và có bộ giải mã AV1 chuyên dụng nhằm mang lại trải nghiệm video cao cấp, đồng thời tiết kiệm pin hữu hiệu.&#13;
-&#13;
-Về kết nối: Năng lực kết nối của iPhone 15 Pro cũng thay đổi mạnh mẽ khi có sự xuất hiện của USB-C – chuẩn tương tác toàn cầu và đạt tốc độ sạc năng lượng cũng như truyền tải dữ liệu cực kỳ nhanh.&#13;
-&#13;
-iPhone 15 Pro Max có gì mới?&#13;
-Về màn hình: iPhone 15 Pro Max sở hữu màn hình lớn tới 6.7 inch, được thiết kế theo phong cách Dynamic Island. Màn hình này được bảo vệ bởi mặt kính Ceramic Shield và đạt độ phân giải lên đến 2.796 x 1290 pixel.&#13;
-&#13;
-Về camera: Hệ thống camera chuyên nghiệp của iPhone 15 Pro Max có camera chính 48MP, cho phép người dùng lựa chọn giữa ba tiêu cự chụp và hỗ trợ định dạng ảnh HEIF 48MP đạt độ phân giải gấp 4 lần. Ngoài ra, chiếc điện thoại còn có camera Ultra Wide 12MP, camera tele 2x 12MP và camera tele 5x 12MP.&#13;
-&#13;
-Về thiết kế: Sản phẩm sử dụng Titan làm chất liệu hoàn thiện - đây là vật liệu cao cấp với đặc tính bền nhẹ và ứng dụng nhiều trong ngành công nghiệp tàu vũ trụ. Ngoài ra, iPhone 15 Pro Max còn có mặt kính Ceramic Shield bền bỉ chống sốc và chống xước. Đặc biệt, phím gạt âm thanh trước đây đã được thay thế bằng nút Action mới đặt ở cạnh bên, có thể hỗ trợ kích hoạt camera, bật đèn pin, ghi âm, dịch thuật… rất tiện dụng.&#13;
-&#13;
-Về cấu hình: Là thế mạnh của iPhone 15 Pro Max với trọng tâm ở chip xử lý A17 Pro mạnh mẽ. Con chip này sở hữu CPU mới có tốc độ vượt trội 10% cùng GPU nhanh hơn 20%. Nhờ vậy, hiệu suất xử lý tác vụ và năng lực đồ họa mà iPhone 15 Pro Max đem tới hết sức hiệu quả.&#13;
-&#13;
-Về kết nối: Nhờ cổng kết nối USB-C, iPhone 15 Pro Max có thể sạc và chuyển dữ liệu cực nhanh, đồng thời sạc ngược trực tiếp cho các thiết bị trong cùng hệ sinh thái như AirPods Pro.&#13;
-&#13;
-iPhone 15 giá bao nhiêu? Bảng giá iPhone 15 chi tiết&#13;
-Theo công bố của Apple, iPhone 15 dự kiến có giá bán ra từ 799 USD với bản 128GB, trong khi iPhone 15 Plus từ 899 USD (khoảng 21,6 triệu đồng) với bản thấp nhất 128GB. iPhone 15 Pro giá từ 999 USD, trong khi bản Pro Max giá từ 1.199 USD (khoảng hơn 28,9 triệu đồng) với bản 256GB.</description>
+        <description>Với iPhone 15, bạn sẽ được tận hưởng những trải nghiệm cao cấp trên một thiết bị bền bỉ và thanh lịch. Sản phẩm gây ấn tượng với màn hình Dynamic Island, camera độ phân giải siêu cao cùng nhiều chế độ quay chụp xuất sắc. Nhờ cổng USB-C, trải nghiệm kết nối của iPhone 15 thực sự khác biệt so với các thế hệ trước.&#13;&#13;Trải nghiệm cao cấp trên iPhone 15&#13;&#13; Nguồn ảnh: Apple&#13;&#13;Trải nghiệm Dynamic Island độc đáo và đa năng&#13;Cơ chế hiển thị Dynamic Island tạo nên sự khác biệt lớn trong cách bạn trải nghiệm và sử dụng các tính năng của iPhone 15. Cấu trúc độc đáo này sẽ biến hóa linh hoạt để hiển thị thông báo, tin nhắn, cuộc gọi đến, phần trăm pin khi sạc, thông tin chuyến bay và vô số điều thú vị khác.&#13;&#13;Đây sẽ là yếu tố tác động mạnh đến cách bạn tương tác với chiếc điện thoại, đồng thời là điểm nhấn quan trọng trong cấu trúc thẩm mỹ tổng thể trên iPhone 15, mang lại cảm nhận lịch thiệp, hiện đại mà cực kỳ hữu dụng trong trải nghiệm hàng ngày.&#13;&#13;Trải nghiệm Dynamic Island độc đáo cùng iPhone 15&#13;&#13; Nguồn ảnh: Apple&#13;&#13;Thiết kế thanh lịch với độ bền bỉ khó tin&#13;iPhone 15 dễ dàng tạo thiện cảm ngay từ ấn tượng đầu tiên bởi phong cách thiết kế thân thiện. Sản phẩm có 5 màu sắc để lựa chọn gồm: Hồng, Xanh lá, Vàng, Xanh lam và Đen. Tất cả đều thật nhẹ nhàng, tinh tế, thể hiện rõ ràng tinh thần thanh lịch mà chiếc điện thoại hướng tới.&#13;&#13;Sản phẩm được hoàn thiện chỉn chu đến từng chi tiết và cực kỳ chú trọng vào chất liệu nhằm mang tới độ bền bỉ tối ưu. iPhone 15 có khung viền nhôm chuẩn hàng không vũ trụ, mặt sau của thiết bị làm từ kính pha màu chế tạo từ quy trình trao đổi ion kép cực bền, mặt trước với kính Ceramic Shield vượt trội về khả năng chịu lực so với mọi smartphone khác hiện nay.&#13;&#13;iPhone 15 Thiết kế thanh lịch với độ bền bỉ khó tin&#13;&#13; Nguồn ảnh: Apple&#13;&#13;Camera 48MP cho những khuôn hình tuyệt đẹp&#13;So với thế hệ tiền nhiệm, iPhone 15 đem lại trải nghiệm quay chụp ở đẳng cấp hoàn toàn khác biệt khi nâng cấp độ phân giải camera chính lên gấp 4 lần. Camera 48MP này có khả năng chụp được những khuôn hình cực độ sắc nét, thể hiện sự xuất sắc dù bạn thực hiện thao tác chụp nhanh cho đến tác vụ chụp phong cảnh.&#13;&#13;Ngoài ra, hệ thống camera của iPhone 15 còn có thêm một ống kính tele với ba mức thu phóng linh hoạt là 2x, 1x và 0.5x để bạn thực hiện thao tác zoom ở nhiều điều kiện khác nhau. Tùy theo nhu cầu, người dùng iPhone 15 còn có thêm nhiều sự lựa chọn về chức năng như Chế độ Ban Đêm hoặc HDR thông minh.&#13;&#13;iPhone 15 cho những khuôn hình tuyệt đẹp&#13;&#13; Nguồn ảnh: Apple&#13;&#13;Trải nghiệm chụp chân dung thực sự ấn tượng&#13;Với tính năng Photonic Engine, iPhone 15 thể hiện năng lực chụp chân dung cao cấp. Cơ chế hoạt động của Photonic Engine nằm ở việc tận dụng những điểm ảnh độ phân giải siêu cao để kết hợp với một khuôn hình khác nhằm tối ưu hiệu quả bắt sáng. Nhờ đó, người dùng sẽ có được bức ảnh siêu sắc nét với kích thước lưu trữ rất nhỏ.&#13;&#13;Cơ chế nhận diện tự động cho phép iPhone 15 xác định chủ thể khuôn hình như người hoặc thú cưng, sau đó tự kích hoạt cơ chế làm mờ nhằm gia tăng chiều sâu bối cảnh hình ảnh.&#13;&#13;Tận hưởng thời lượng pin hết sức dài lâu&#13;iPhone 15 tạo điều kiện để người dùng thoải mái trải nghiệm mọi tính năng và sử dụng các tác vụ hỗn hợp xuyên suốt ngày dài. Sản phẩm có thể phát video không ngừng nghỉ trong 20 tiếng đồng hồ liên tục và đạt thời lượng xem video nhiều hơn iPhone 12 tới ba giờ.&#13;&#13;Với thời lượng sử dụng ấn tượng này, bạn không cần phải bận tâm nhiều đến việc mang theo bộ sạc như trước nữa. Những lợi thế về chip xử lý và khả năng vận hành tiết kiệm pin giúp iPhone 15 có được lợi thế thực sự mạnh mẽ về pin.&#13;&#13;Tận hưởng thời lượng pin hết sức dài lâu của iPhone 15&#13;&#13; Nguồn ảnh: Apple&#13;&#13;A16 Bionic ẩn chứa nguồn hiệu năng lớn lao&#13;Sức mạnh của iPhone 15 được quyết định bởi con chip A16 Bionic - đây là con chip đã sớm thể hiện nguồn sức mạnh tuyệt vời và độ hiệu quả trong thực tế. Không chỉ hỗ trợ chơi game tuyệt vời và giải quyết các tác vụ nặng trong chớp mắt, A16 Bionic còn giúp iPhone 15 có thời lượng pin tuyệt vời, đồng thời hỗ trợ tạo ra những bức ảnh chân dung đẹp xuất sắc.&#13;&#13;Đặc biệt, hệ thống GPU trên chip A16 Bionic vượt trội 40% sức mạnh so với GPU được dùng trên dòng sản phẩm iPhone 12 trước kia. Đây là ưu thế vượt trội giúp người dùng có được trải nghiệm game thực sự tốt và chỉnh sửa ảnh, video dễ dàng.&#13;&#13;iPhone 15 sở hữu nguồn hiệu năng lớn lao&#13;&#13; Nguồn ảnh: Apple&#13;&#13;Sạc và kết nối đa năng thông qua USB-C&#13;Sự khác biệt lớn của iPhone 15 nằm ở việc sản phẩm sử dụng cổng tương tác USB-C chưa từng có trên mọi thế hệ iPhone trước. Đây là cơ chế kết nối đa năng với tốc độ truyền tải năng lượng và dữ liệu tuyệt vời.&#13;&#13;Với cổng USB-C, bạn có thể dùng chung một cáp kết nối cho cả iPhone 15 và MacBook, iPad. Không chỉ vậy, người dùng hoàn toàn có thể tận dụng chiếc điện thoại để sạc pin ngược cho các phụ kiện tương thích như tai nghe AirPods và đồng hồ Apple Watch một cách tiện lợi.&#13;&#13;iPhone 15 sạc và kết nối đa năng thông qua USB-C&#13;&#13; Nguồn ảnh: Apple&#13;&#13;Các phiên bản của iPhone 15 series&#13;iPhone 15 series bao gồm 4 phiên bản là iPhone 15, iPhone 15 Plus, iPhone 15 Pro và iPhone 15 Pro Max. Mỗi sản phẩm lại có nét đặc trưng và thu hút riêng.&#13;&#13;Dòng iPhone 15 có hai phiên bản màn hình, bao gồm màn hình 6,1 inch được sử dụng cho iPhone 15 và màn hình 6,7 inch trên iPhone 15 Plus. Cả hai phiên bản màn hình này đều sử dụng tấm nền Super Retina XDR OLED có viền siêu mỏng xung quanh, thiết kế Dynamic Island, độ phân giải Full HD+, tần số quét 60Hz, hỗ trợ HDR10 và Dolby Vision.n dung lượng cao, phù hợp với những người dùng thường xuyên chụp ảnh và quay video.&#13;&#13;Dòng iPhone 15 Plus vẫn là một chiếc điện thoại màn hình lớn cùng thời lượng pin ấn tượng. Màn hình iPhone 15 Plus có kích thước 6,7 inch Super Retina XDR, tuy nhiên giờ đây đã được nâng cấp thêm Dynamic Island. Đây là khu vực sẽ hiển thị các thông báo và những thông tin nhanh để bạn sử dụng iPhone tiện lợi hơn.&#13;&#13;Các phiên bản của iPhone 15 series&#13;&#13;Dòng iPhone 15 Pro bao gồm những chiếc điện thoại cao cấp nhất của Apple trong năm 2023, với giá bán cao hơn so với dòng sản phẩm tiêu chuẩn. Dòng sản phẩm này có ngôn ngữ thiết kế tương tự như dòng iPhone 15 tiêu chuẩn. Tuy nhiên, Apple đã chuyển sang sử dụng khung titanium cho những điện thoại iPhone 15 Pro, mang đến trải nghiệm cứng cáp và cao cấp hơn.&#13;&#13;Với dòng iPhone 15 Pro Max thì đây chính là chiếc iPhone cao cấp nhất hiện nay. Không chỉ màn hình lớn nhất, thời lượng pin tốt nhất, iPhone 15 Pro Max còn gây ấn tượng bởi loạt tính năng mới như thiết kế khung Titan, bộ vi xử lý A17 Pro mạnh nhất hiện nay, camera zoom quang học Tele 5x, nút Tác vụ hoàn toàn mới.&#13;&#13;iPhone 15 có gì mới?&#13;Về màn hình: Vẫn sử dụng màn hình 6.1 inch gọn gàng và công nghệ Super Retina XDR, nhưng iPhone 15 đã chuyển sang thiết kế Dynamic Island độc đáo. Độ sáng HDR lên đến 1600 nits giúp hiển thị hình ảnh và video rõ nét. Đặc biệt, độ sáng khi hiển thị ngoài trời sẽ đạt tới 2000 nits. Màn hình sản phẩm được bảo vệ bởi mặt kính Ceramic Shield với độ cứng vượt trội mọi dòng smartphone khác.&#13;&#13;Về camera: iPhone 15 sở hữu camera tân tiến với camera chính 48MP, kết hợp công nghệ quad-pixel và Focus Pixels 100% để bắt nét nhanh hơn. Hai camera còn lại là bao gồm camera Ultra Wide 12MP góc siêu rộng và camera tele 12MP hỗ trợ thu phóng.&#13;&#13;Những điểm mới trên iPhone 15&#13;&#13;Về thiết kế: iPhone 15 có phong cách mới và tinh tế hơn, sử dụng mặt lưng gia cố bằng kính với độ bền cao, các cạnh bên của máy bo tròn đem lại cảm giác dễ chịu khi cầm nắm.&#13;&#13;Về cấu hình: iPhone 15 được trang bị chip A16 Bionic mạnh mẽ gồm hai lõi hiệu năng cao đi kèm bốn lõi tiết kiệm năng lượng. Bộ vi xử lý này bao gồm CPU 6 lõi và GPU 5 lõi với băng thông nhiều hơn 50%.&#13;&#13;Về kết nối: Khả năng kết nối của iPhone 15 cũng hết sức mạnh mẽ khi sử dụng cổng USB-C – tiêu chuẩn tương tác vật lý được lưu hành phổ biến nhất trên toàn cầu hiện tại.&#13;&#13;iPhone 15 Plus có gì mới?&#13;Về màn hình: So với iPhone 15, phiên bản iPhone 15 Plus có màn hình lớn hơn - ở mức 6.7 inch. Sản phẩm vẫn sử dụng công nghệ hiển thị Super Retina XDR với cấu trúc Dynamic Island tạo điểm nhấn. Về khả năng hiển thị, màn hình iPhone 15 Plus có thể đạt độ sáng cực đại là 2000 nits khi hoạt động ngoài trời – gấp đôi so với thế hệ trước.&#13;&#13;Về camera: Sự xuất hiện của camera chính 48MP với cảm biến quad-pixel cùng công nghệ Focus Pixels 100% khiến iPhone 15 Plus có khả năng bắt nét tốc độ cao. Ngoài ra, sản phẩm còn sở hữu hai camera bổ trợ hiệu quả gồm camera Ultra Wide 12MP và camera tele 12MP.&#13;&#13;Về thiết kế: iPhone 15 Plus có thân máy rộng do sở hữu màn hình 6.7 inch, sản phẩm có cấu trúc thân máy kim loại với hai mặt kính trước/sau, được gia cố để tối ưu độ bền. Đặc biệt, chiếc điện thoại này có thể kháng nước và kháng bụi rất tốt.&#13;&#13;Về cấu hình: Chip A16 Bionic của iPhone 15 Plus bao gồm 6 lõi CPU nhanh hơn thế hệ cũ cùng 5 lõi GPU, được cải tiến nhằm thúc đẩy hiệu suất băng thông thêm 50%, từ đó giúp trải nghiệm đồ họa mượt mà hơn khi chơi game và xem video.&#13;&#13;Về kết nối: Giống như iPhone 15, phiên bản iPhone 15 Plus cũng sử dụng cổng USB-C với năng lực sạc mạnh mẽ và hỗ trợ kết nối hiệu quả cao. Nhờ cổng USB-C, người dùng dễ dàng sạc tai nghe AirPods thông qua nguồn năng lượng của iPhone một cách đơn giản.&#13;&#13;iPhone 15 Pro có gì mới?&#13;Về màn hình: iPhone 15 Pro được trang bị màn hình 6.1 inch với Dynamic Island biến tấu linh hoạt. Sản phẩm được rút gọn viền bao quanh không gian hiển thị nhằm tối ưu cảm nhận nhìn ngắm và quan sát. Độ phân giải 2556 x 1179 pixel đảm bảo bạn sẽ có được những trải nghiệm hình ảnh tuyệt vời.&#13;&#13;Về camera: Trên mặt sau, iPhone 15 Pro có hệ thống camera bao gồm camera chính 48MP, camera Ultra Wide 12MP, camera tele 2x 12MP và camera tele 3x 12MP. Công nghệ OIS thế hệ mới giúp chống rung tốt hơn, sự kết hợp giữa các camera tạo nên hiệu ứng chụp ảnh sắc nét, tối ưu trong nhiều điều kiện.&#13;&#13;Về thiết kế: Sự khác biệt lớn ở thiết kế iPhone 15 Pro là việc sản phẩm sử dụng khung vỏ Titan rất bền và nhẹ, kết hợp với mặt kính trước Ceramic Shield nhằm tối ưu khả năng chống chịu va đập. Ngoài ra chiếc điện thoại còn có điểm nhấn nằm ở nút Action mới, có thể đảm nhận nhiều nhiệm vụ khác nhau tùy theo ý muốn của người dùng và thay thế cho nút gạt âm thanh trước đây.&#13;&#13;Về cấu hình: Cấu hình iPhone 15 Pro rất mạnh mẽ với chip A17 Pro. Con chip mới là bộ vi xử lý 3nm đầu tiên, được cải tiến nhằm tối ưu CPU nhanh hơn 10%, GPU nhanh hơn 20% và có bộ giải mã AV1 chuyên dụng nhằm mang lại trải nghiệm video cao cấp, đồng thời tiết kiệm pin hữu hiệu.&#13;&#13;Về kết nối: Năng lực kết nối của iPhone 15 Pro cũng thay đổi mạnh mẽ khi có sự xuất hiện của USB-C – chuẩn tương tác toàn cầu và đạt tốc độ sạc năng lượng cũng như truyền tải dữ liệu cực kỳ nhanh.&#13;&#13;iPhone 15 Pro Max có gì mới?&#13;Về màn hình: iPhone 15 Pro Max sở hữu màn hình lớn tới 6.7 inch, được thiết kế theo phong cách Dynamic Island. Màn hình này được bảo vệ bởi mặt kính Ceramic Shield và đạt độ phân giải lên đến 2.796 x 1290 pixel.&#13;&#13;Về camera: Hệ thống camera chuyên nghiệp của iPhone 15 Pro Max có camera chính 48MP, cho phép người dùng lựa chọn giữa ba tiêu cự chụp và hỗ trợ định dạng ảnh HEIF 48MP đạt độ phân giải gấp 4 lần. Ngoài ra, chiếc điện thoại còn có camera Ultra Wide 12MP, camera tele 2x 12MP và camera tele 5x 12MP.&#13;&#13;Về thiết kế: Sản phẩm sử dụng Titan làm chất liệu hoàn thiện - đây là vật liệu cao cấp với đặc tính bền nhẹ và ứng dụng nhiều trong ngành công nghiệp tàu vũ trụ. Ngoài ra, iPhone 15 Pro Max còn có mặt kính Ceramic Shield bền bỉ chống sốc và chống xước. Đặc biệt, phím gạt âm thanh trước đây đã được thay thế bằng nút Action mới đặt ở cạnh bên, có thể hỗ trợ kích hoạt camera, bật đèn pin, ghi âm, dịch thuật… rất tiện dụng.&#13;&#13;Về cấu hình: Là thế mạnh của iPhone 15 Pro Max với trọng tâm ở chip xử lý A17 Pro mạnh mẽ. Con chip này sở hữu CPU mới có tốc độ vượt trội 10% cùng GPU nhanh hơn 20%. Nhờ vậy, hiệu suất xử lý tác vụ và năng lực đồ họa mà iPhone 15 Pro Max đem tới hết sức hiệu quả.&#13;&#13;Về kết nối: Nhờ cổng kết nối USB-C, iPhone 15 Pro Max có thể sạc và chuyển dữ liệu cực nhanh, đồng thời sạc ngược trực tiếp cho các thiết bị trong cùng hệ sinh thái như AirPods Pro.&#13;&#13;iPhone 15 giá bao nhiêu? Bảng giá iPhone 15 chi tiết&#13;Theo công bố của Apple, iPhone 15 dự kiến có giá bán ra từ 799 USD với bản 128GB, trong khi iPhone 15 Plus từ 899 USD (khoảng 21,6 triệu đồng) với bản thấp nhất 128GB. iPhone 15 Pro giá từ 999 USD, trong khi bản Pro Max giá từ 1.199 USD (khoảng hơn 28,9 triệu đồng) với bản 256GB.</description>
     </product>
     <product>
         <id>DT06</id>
@@ -470,7 +345,7 @@ Với hơn 23 giờ xem video liên tục, chiếc điện thoại cho phép b�
         <id>DT07</id>
         <name>Galaxy S23</name>
         <category>Điện thoại</category>
-        <quantity>10</quantity>
+        <quantity>15</quantity>
         <price>13000000</price>
         <exp-date>2027-04-01T00:00:00+07:00</exp-date>
         <manafacturer>Samsung</manafacturer>
@@ -551,11 +426,215 @@ Phần chuyển dữ liệu từ điện thoại khác sang Samsung Galaxy S23 c
         <id>DT08</id>
         <name>Galaxy S24+</name>
         <category>Điện thoại</category>
-        <quantity>10</quantity>
+        <quantity>25</quantity>
         <price>23000000</price>
         <exp-date>2028-04-01T00:00:00+07:00</exp-date>
         <manafacturer>Samsung</manafacturer>
         <thumbnail>D:\Projects\Java\QLKH\src\main\resources\images\Galaxy-s24+.png</thumbnail>
-        <description>Đánh giá chi tiết Samsung Galaxy S24 Plus 5G&#13;Với hệ thống Galaxy AI mới mẻ và tiên tiến, cấu hình mạnh mẽ cùng hệ thống camera ấn tượng trên Samsung Galaxy S24 Plus sẽ giúp khai phá tính sáng tạo trong bạn cũng như sẽ là thiết bị hỗ trợ đắc lực cho mọi công việc bạn đang thực hiện. Chiếc điện thoại này mở ra kỷ nguyên mới về AI cho hệ sinh thái Galaxy trong tương lai.&#13;&#13;Samsung Galaxy S24 Plus - Tổng quan&#13;&#13;Thiết kế chắc chắn, cảm hứng màu sắc lấy từ khoáng sản quý&#13;Với thiết kế nguyên khối và lớp phủ satin ở mặt lưng, Galaxy S24 Plus mang lại cảm giác cầm nắm như ý, êm ái trong lòng bàn tay. Chất liệu nhôm Armor Aluminium được nâng cấp sẽ giúp máy đảm bảo độ bền bỉ, chắc chắn trong quá trình sử dụng. Bạn cũng sẽ tự tin sử dụng khi đi mưa hoặc vô tình làm đổ cốc nước vì thiết bị đã hỗ trợ chuẩn kháng nước IP68. &#13;&#13;Samsung Galaxy S24 Plus - Khung viền&#13;&#13;Với thông điệp hướng đến hành trình Xanh, Samsung đã sử dụng các vật liệu tái chế cho một số bộ phận của thiết bị, điển hình như pin, hệ thống loa, các phím cứng vật lý hay hộp đựng sản phẩm. &#13;&#13;Lấy cảm hứng từ những khoáng sản quý giá trên Trái đất, bộ sưu tập màu sắc ấn tượng trên Galaxy S24 Plus sẽ đại diện cho quyền năng của thiên nhiên, giúp bạn tận hưởng một cách trọn vẹn. Mỗi màu trong số các màu Tím Cobalt, Vàng Amber, Đen Onyx và Xám Marble đều tạo nên cá tính riêng và dấu ấn mạnh mẽ. &#13;&#13;Samsung Galaxy S24 Plus - Màu sắc&#13;&#13;Ghi trọn mọi chi tiết với hệ thống camera toàn diện&#13;Dù bạn đang ghi lại những bức selfie ngọt ngào, ảnh góc rộng cùng bạn bè, hay zoom cận cảnh, hệ thống camera trên Galaxy S24 Plus đảm bảo rằng bạn sẽ sở hữu được những tuyệt phẩm với độ phân giải siêu sắc nét và ổn định ngay trước mắt. Điện thoại sẽ bắt trọn mọi khoảnh khắc ở bất kể điều kiện sáng nào. &#13;&#13;Samsung Galaxy S24 Plus - Camera&#13;&#13;Với công nghệ AI ISP được tích hợp, thiết bị sẽ tạo ra những khoảnh khắc rực rỡ, rõ nét, ngay cả trong màn đêm. Hơn nữa, hệ thống camera toàn diện sẽ mở ra cho bạn quyền năng sáng tạo vô hạn, bạn có thể tự do chụp ảnh chân dung theo mong muốn, zoom cận cảnh 2x hay thậm chí 3x, cũng không còn là nỗi lo ngại. &#13;&#13;Samsung Galaxy S24 Plus - Zoom cận cảnh&#13;&#13;Bạn có thể thoải mái thu phóng, zoom cận cảnh đến từng chi tiết, công nghệ AI Zoom mới sẽ đảm bảo chất lượng hình ảnh sắc nét, sinh động và chất lượng cao.&#13;&#13;Galaxy AI - mở ra kỷ nguyên mới&#13;Samsung Galaxy S24 series nói chung và Samsung Galaxy S24 Plus nói riêng giờ đây dễ dàng kết nối với thế giới bên ngoài một cách tiện lợi và thông minh thông qua việc tích hợp hệ thống Galaxy AI. Hứa hẹn trong tương lai gần, hệ sinh thái của nhà Samsung sẽ tạo nên một quyền năng AI mạnh mẽ, đồng bộ. &#13;&#13;Galaxy S24 Plus đem đến trải nghiệm liên lạc thú vị thông qua tính năng AI phiên dịch trực tiếp trong cuộc gọi. Tại đây, nó không còn gói gọn trong cuộc gọi thông thường nữa mà trở thành cầu nối giúp người dùng vượt qua được rào cản ngôn ngữ, dễ dàng tương tác với bạn bè quốc tế mạch lạc, mượt mà mà không cần phải kết nối Internet. &#13;&#13;Samsung Galaxy S24 Plus - Khoanh vùng và tìm kiếm&#13;&#13;Tính năng Khoanh tròn và tìm kiếm sẽ giúp bạn truy vấn một đối tượng nào đó mà bạn vô tình gặp phải và muốn tìm hiểu kỹ về nó. Bạn chỉ cần khoanh tròn vùng muốn tìm và sẽ nhận được kết quả trong giây lát thông qua Google Search. &#13;&#13;Nếu bạn là một người thường xuyên sử dụng mạng xã hội để tán gẫu hoặc hay sử dụng email để làm việc, tính năng Trợ lý chat thông minh sẽ giúp bạn biến đoạn hội thoại thêm phần thú vị và sử dụng văn phong luôn phù hợp với ngữ cảnh với việc hỗ trợ 5 ngữ cảnh khác nhau như mạng xã hội, chuyên nghiệp, thông thường, lịch sự và emoji.&#13;&#13;Samsung Galaxy S24 Plus - Trợ lý chat thông minh&#13;&#13;Sẵn sàng mọi cuộc chơi với hiệu suất không giới hạn&#13;Sử dụng Exynos 2400, Galaxy S24 Plus được nâng cấp mạnh mẽ về hiệu năng CPU, GPU và hiệu suất AI. Được biết, bộ xử lý này vượt trội hơn so với người tiền nhiệm Exynos 2200 với hiệu năng được tăng cường đến 70%. Hơn nữa, bộ nhớ RAM mặc định 12GB sẽ biến chiếc điện thoại Samsung này trở thành một cỗ máy đa nhiệm hoàn hảo khi sử dụng cùng lúc hàng chục ứng dụng, chuyển đổi qua lại mượt mà. &#13;&#13;Samsung Galaxy S24 Plus - Hiệu năng &#13;&#13;Hệ thống tản nhiệt Vapor Chamber lớn hơn đến 1.5 lần và được nâng cấp mạnh mẽ hơn với vật liệu tiếp xúc nhiệt dạng lỏng tích hợp, bạn sẽ được khai phá quyền năng giải trí ở mọi lúc mọi nơi. Các trận game sẽ luôn được tối ưu hiệu suất và nhiệt lượng tỏa ra cũng cực kỳ thấp. &#13;&#13;Với Galaxy S24 Plus trên tay, bạn sẽ không còn nỗi lo về pin khi dễ dàng sử dụng liền mạch với viên pin dung lượng lớn được tối ưu một cách thông minh. Dù là thời gian trải nghiệm game, xem phim hay làm việc, máy đều đáp ứng tốt với thời gian được kéo dài.&#13;&#13;Samsung Galaxy S24 Plus - Pin&#13;&#13;Màn hình thích ứng tốt, nguồn cảm hứng để tự tin sáng tạo&#13;Ngoài hệ thống camera khai phá tiềm năng sáng tạo của người dùng, màn hình hiển thị sắc nét cũng là một đặc điểm giúp bạn có thêm nhiều cảm hứng để làm nên điều đó. Với màn hình Dynamic AMOLED 2x 6.7 inch QHD+ có viền siêu mỏng kết hợp với tần số quét 120Hz và độ sáng tối đa 2600 nits, bạn sẽ có không gian rộng lớn và siêu sắc nét để trải nghiệm mọi thứ.&#13;&#13;Samsung Galaxy S24 Plus - Màn hình&#13;&#13;Bên cạnh đó, màu sắc hiển thị rực rỡ và độ tương phản được tối ưu hóa thông qua công nghệ Vision Booster sẽ góp phần tạo nên một màn hình chất lượng.</description>
+        <description>Đánh giá chi tiết Samsung Galaxy S24 Plus 5G&#13;
+Với hệ thống Galaxy AI mới mẻ và tiên tiến, cấu hình mạnh mẽ cùng hệ thống camera ấn tượng trên Samsung Galaxy S24 Plus sẽ giúp khai phá tính sáng tạo trong bạn cũng như sẽ là thiết bị hỗ trợ đắc lực cho mọi công việc bạn đang thực hiện. Chiếc điện thoại này mở ra kỷ nguyên mới về AI cho hệ sinh thái Galaxy trong tương lai.&#13;
+&#13;
+Samsung Galaxy S24 Plus - Tổng quan&#13;
+&#13;
+Thiết kế chắc chắn, cảm hứng màu sắc lấy từ khoáng sản quý&#13;
+Với thiết kế nguyên khối và lớp phủ satin ở mặt lưng, Galaxy S24 Plus mang lại cảm giác cầm nắm như ý, êm ái trong lòng bàn tay. Chất liệu nhôm Armor Aluminium được nâng cấp sẽ giúp máy đảm bảo độ bền bỉ, chắc chắn trong quá trình sử dụng. Bạn cũng sẽ tự tin sử dụng khi đi mưa hoặc vô tình làm đổ cốc nước vì thiết bị đã hỗ trợ chuẩn kháng nước IP68. &#13;
+&#13;
+Samsung Galaxy S24 Plus - Khung viền&#13;
+&#13;
+Với thông điệp hướng đến hành trình Xanh, Samsung đã sử dụng các vật liệu tái chế cho một số bộ phận của thiết bị, điển hình như pin, hệ thống loa, các phím cứng vật lý hay hộp đựng sản phẩm. &#13;
+&#13;
+Lấy cảm hứng từ những khoáng sản quý giá trên Trái đất, bộ sưu tập màu sắc ấn tượng trên Galaxy S24 Plus sẽ đại diện cho quyền năng của thiên nhiên, giúp bạn tận hưởng một cách trọn vẹn. Mỗi màu trong số các màu Tím Cobalt, Vàng Amber, Đen Onyx và Xám Marble đều tạo nên cá tính riêng và dấu ấn mạnh mẽ. &#13;
+&#13;
+Samsung Galaxy S24 Plus - Màu sắc&#13;
+&#13;
+Ghi trọn mọi chi tiết với hệ thống camera toàn diện&#13;
+Dù bạn đang ghi lại những bức selfie ngọt ngào, ảnh góc rộng cùng bạn bè, hay zoom cận cảnh, hệ thống camera trên Galaxy S24 Plus đảm bảo rằng bạn sẽ sở hữu được những tuyệt phẩm với độ phân giải siêu sắc nét và ổn định ngay trước mắt. Điện thoại sẽ bắt trọn mọi khoảnh khắc ở bất kể điều kiện sáng nào. &#13;
+&#13;
+Samsung Galaxy S24 Plus - Camera&#13;
+&#13;
+Với công nghệ AI ISP được tích hợp, thiết bị sẽ tạo ra những khoảnh khắc rực rỡ, rõ nét, ngay cả trong màn đêm. Hơn nữa, hệ thống camera toàn diện sẽ mở ra cho bạn quyền năng sáng tạo vô hạn, bạn có thể tự do chụp ảnh chân dung theo mong muốn, zoom cận cảnh 2x hay thậm chí 3x, cũng không còn là nỗi lo ngại. &#13;
+&#13;
+Samsung Galaxy S24 Plus - Zoom cận cảnh&#13;
+&#13;
+Bạn có thể thoải mái thu phóng, zoom cận cảnh đến từng chi tiết, công nghệ AI Zoom mới sẽ đảm bảo chất lượng hình ảnh sắc nét, sinh động và chất lượng cao.&#13;
+&#13;
+Galaxy AI - mở ra kỷ nguyên mới&#13;
+Samsung Galaxy S24 series nói chung và Samsung Galaxy S24 Plus nói riêng giờ đây dễ dàng kết nối với thế giới bên ngoài một cách tiện lợi và thông minh thông qua việc tích hợp hệ thống Galaxy AI. Hứa hẹn trong tương lai gần, hệ sinh thái của nhà Samsung sẽ tạo nên một quyền năng AI mạnh mẽ, đồng bộ. &#13;
+&#13;
+Galaxy S24 Plus đem đến trải nghiệm liên lạc thú vị thông qua tính năng AI phiên dịch trực tiếp trong cuộc gọi. Tại đây, nó không còn gói gọn trong cuộc gọi thông thường nữa mà trở thành cầu nối giúp người dùng vượt qua được rào cản ngôn ngữ, dễ dàng tương tác với bạn bè quốc tế mạch lạc, mượt mà mà không cần phải kết nối Internet. &#13;
+&#13;
+Samsung Galaxy S24 Plus - Khoanh vùng và tìm kiếm&#13;
+&#13;
+Tính năng Khoanh tròn và tìm kiếm sẽ giúp bạn truy vấn một đối tượng nào đó mà bạn vô tình gặp phải và muốn tìm hiểu kỹ về nó. Bạn chỉ cần khoanh tròn vùng muốn tìm và sẽ nhận được kết quả trong giây lát thông qua Google Search. &#13;
+&#13;
+Nếu bạn là một người thường xuyên sử dụng mạng xã hội để tán gẫu hoặc hay sử dụng email để làm việc, tính năng Trợ lý chat thông minh sẽ giúp bạn biến đoạn hội thoại thêm phần thú vị và sử dụng văn phong luôn phù hợp với ngữ cảnh với việc hỗ trợ 5 ngữ cảnh khác nhau như mạng xã hội, chuyên nghiệp, thông thường, lịch sự và emoji.&#13;
+&#13;
+Samsung Galaxy S24 Plus - Trợ lý chat thông minh&#13;
+&#13;
+Sẵn sàng mọi cuộc chơi với hiệu suất không giới hạn&#13;
+Sử dụng Exynos 2400, Galaxy S24 Plus được nâng cấp mạnh mẽ về hiệu năng CPU, GPU và hiệu suất AI. Được biết, bộ xử lý này vượt trội hơn so với người tiền nhiệm Exynos 2200 với hiệu năng được tăng cường đến 70%. Hơn nữa, bộ nhớ RAM mặc định 12GB sẽ biến chiếc điện thoại Samsung này trở thành một cỗ máy đa nhiệm hoàn hảo khi sử dụng cùng lúc hàng chục ứng dụng, chuyển đổi qua lại mượt mà. &#13;
+&#13;
+Samsung Galaxy S24 Plus - Hiệu năng &#13;
+&#13;
+Hệ thống tản nhiệt Vapor Chamber lớn hơn đến 1.5 lần và được nâng cấp mạnh mẽ hơn với vật liệu tiếp xúc nhiệt dạng lỏng tích hợp, bạn sẽ được khai phá quyền năng giải trí ở mọi lúc mọi nơi. Các trận game sẽ luôn được tối ưu hiệu suất và nhiệt lượng tỏa ra cũng cực kỳ thấp. &#13;
+&#13;
+Với Galaxy S24 Plus trên tay, bạn sẽ không còn nỗi lo về pin khi dễ dàng sử dụng liền mạch với viên pin dung lượng lớn được tối ưu một cách thông minh. Dù là thời gian trải nghiệm game, xem phim hay làm việc, máy đều đáp ứng tốt với thời gian được kéo dài.&#13;
+&#13;
+Samsung Galaxy S24 Plus - Pin&#13;
+&#13;
+Màn hình thích ứng tốt, nguồn cảm hứng để tự tin sáng tạo&#13;
+Ngoài hệ thống camera khai phá tiềm năng sáng tạo của người dùng, màn hình hiển thị sắc nét cũng là một đặc điểm giúp bạn có thêm nhiều cảm hứng để làm nên điều đó. Với màn hình Dynamic AMOLED 2x 6.7 inch QHD+ có viền siêu mỏng kết hợp với tần số quét 120Hz và độ sáng tối đa 2600 nits, bạn sẽ có không gian rộng lớn và siêu sắc nét để trải nghiệm mọi thứ.&#13;
+&#13;
+Samsung Galaxy S24 Plus - Màn hình&#13;
+&#13;
+Bên cạnh đó, màu sắc hiển thị rực rỡ và độ tương phản được tối ưu hóa thông qua công nghệ Vision Booster sẽ góp phần tạo nên một màn hình chất lượng.</description>
+    </product>
+    <product>
+        <id>DT09</id>
+        <name>Galaxy A55</name>
+        <category>Điện thoại</category>
+        <quantity>30</quantity>
+        <price>10000000</price>
+        <exp-date>2027-04-01T00:00:00+07:00</exp-date>
+        <manafacturer>Samsung</manafacturer>
+        <thumbnail>D:\Projects\Java\QLKH\src\main\resources\images\Galaxy-a55.png</thumbnail>
+        <description>Vẻ ngoài hiện đại, khung viền kim loại bền bỉ, sang trọng kết hợp sắc màu thời thượng, Samsung Galaxy A55 mang tới trải nghiệm thiết kế cao cấp cho người dùng. Đồng thời, sự có mặt của các công nghệ chụp ảnh tiên tiến, hiệu năng mạnh, bảo mật nâng cao Knox Vault và màn hình hàng đầu sẽ giúp người dùng tận hưởng những điều tuyệt vời nhất trên thế hệ Galaxy A mới.&#13;
+&#13;
+Điện thoại Samsung Galaxy A55&#13;
+&#13;
+Sự kết hợp hoàn hảo giữa sắc màu và khung máy bền bỉ&#13;
+Trên tay Samsung A55, người dùng sẽ có ấn tượng mạnh bởi đa sắc màu trẻ trung, thời thượng kết hợp với khung máy kim loại bền bỉ. Phần mặt sau và mặt trước còn sử dụng kính cường lực thế hệ mới Corning Gorilla Victus+, đảm bảo sự chắc chắn, vừa bảo vệ máy tối ưu, vừa mang tới tổng thể hài hòa, hiện đại và sang trọng. Các sắc màu có trên Samsung Galaxy A55 bao gồm: Tím Lilac, Xanh Đen Navy và Xanh Iceblue để người dùng dễ dàng chọn được phiên bản màu cá tính dành cho mình.&#13;
+&#13;
+Thiết kế Samsung Galaxy A55&#13;
+&#13;
+Ảnh chụp đẹp ngay cả thiếu sáng&#13;
+Gặp gỡ bộ 3 camera 50MP (chính) + camera 12MP (góc siêu rộng) và camera 5MP (cận cảnh) trên Samsung Galaxy A55 5G bạn sẽ cảm thấy thú vị và yêu thích chụp ảnh hơn bao giờ. Những cải tiến mới về camera đưa người dùng vào một không gian nhiếp ảnh chuyên nghiệp và sáng tạo không giới hạn.&#13;
+&#13;
+Camera Samsung Galaxy A55&#13;
+&#13;
+Trong đó, camera chính 50MP, tích hợp chống rung OIS sẽ “hóa thân” thành một “cạ cứng” thân thiết với bạn cho các góc ảnh rõ ràng, sắc màu chuẩn nét khi chụp đủ sáng và giảm độ nhiễu gấp 4 lần khi chụp vào ban đêm, để mọi khung ảnh đều trở thành những khoảnh khắc tươi đẹp và quý giá nhất.&#13;
+&#13;
+Camera Samsung Galaxy A55 5G (ảnh 2)&#13;
+&#13;
+Để thực hiện được điều này, Samsung đã cải tiến tính năng Chụp đêm (Nightography), trong đó bộ xử lý hình ảnh sử dụng AI thông minh sẽ có sẵn trong chế độ Chân dung đêm (Night Portrait). Đồng thời, Samsung cũng sử dụng công nghệ Super HDR đến 68 triệu màu, đảm bảo mọi chi tiết trong khung hình đều rõ nét và chân thực.&#13;
+&#13;
+Camera Samsung Galaxy A55 chụp đêm&#13;
+&#13;
+Quay video HDR sắc nét dễ dàng ở mọi điều kiện &#13;
+Samsung Galaxy A55 được trang bị công nghệ chống rung quang học (OIS) và tính năng ổn định hình ảnh kỹ thuật số video (VDIS), cố định khung hình vững chắn để hình ảnh ghi lại mượt mà và sống động ngay cả khi đang di chuyển. Ngoài ra, Samsung A55 có thêm chế độ Super HDR cho khung hình “tỏa sáng” ở nhiều môi trường ánh sáng khác nhau nhờ màu sắc và độ tương phản đã được tối ưu hóa. Chính vì vậy, ngay cả trong điều kiện thiếu sáng, người dùng cũng không lắng lo các thước phim bị mờ, nhòe. &#13;
+&#13;
+Camera sau Samsung Galaxy A55&#13;
+&#13;
+Công cụ chỉnh sửa ảnh chuyên nghiệp&#13;
+Không chỉ chụp ảnh xuất sắc mà bộ công cụ chỉnh ảnh được trang bị sẵn trong máy còn giúp bạn tạo ra những bức ảnh lung linh. Theo đó, bạn có thể dùng tính năng Đề xuất chỉnh sửa, chỉ cần một lần chạm, hệ thống sẽ kết hợp nhiều yếu tố khác nhau mang tới tấm ảnh thú vị để bạn dễ dàng chia sẻ cùng bạn bè và người thân trên mọi nền tảng mạng xã hội. &#13;
+&#13;
+Công cụ chỉnh ảnh Samsung Galaxy A55&#13;
+&#13;
+Sức mạnh gaming tuyệt đỉnh&#13;
+Tận dụng sức mạnh từ bộ xử lý 4nm Exynos 1480, đi kèm 8GB RAM và 128GB bộ nhớ trong, điện thoại đảm bảo đa tác vụ mượt mà, gaming ấn tượng và phát trực tuyến một cách dễ dàng. Sự đồng hành cùng công nghệ 5G còn cho tốc độ được đẩy cao để mọi hoạt động diễn ra nhanh chóng. Khi bạn gaming trên Samsung A55 sẽ rất thích vì từng thao tác đều được hệ thống xử lý đơn giản. Điện thoại cũng có hỗ trợ mở rộng thẻ nhớ qua microSD lên đến 1TB để người dùng sử dụng khi cần thiết.&#13;
+&#13;
+Hiệu năng Samsung Galaxy A55&#13;
+&#13;
+Đắm chìm trong màn hình Super AMOLED sắc nét&#13;
+Samsung Galaxy A55 5G sở hữu màn hình 6.6 inch, FHD+, độ sáng 1000 nit, Super AMOLED sắc nét và rõ ràng. Nhờ vậy, bạn sẽ thỏa thích giải trí trên Galaxy A55 5G, đắm chìm trong không gian âm nhạc, phim ảnh và dễ dàng tận hưởng, thưởng thức những chương trình hấp dẫn mới trên mạng xã hội sau ngày học tập, làm việc chăm chỉ. Chưa hết, từng chuyển cảnh, thao tác vuốt, cuộn hay chạm còn diễn ra nhanh chóng bởi sự góp mặt của tần số quét 120Hz mượt mà.&#13;
+&#13;
+Màn hình Samsung Galaxy A55&#13;
+&#13;
+Thời lượng pin đến 2 ngày&#13;
+Mọi kết nối, liên lạc đều liền mạch trong cả ngày dài bởi viên pin siêu ấn tượng đến 5.000mAh. Đây là một trong những viên pin lớn nhất hiện nay, có thể kéo dài thời lượng sử dụng đến 2 ngày. Chính vì vậy khi đồng hành cùng Samsung A55 người dùng sẽ không lắng lo hết pin giữa chừng hay kết nối gián đoạn giữa ngày. Đồng thời, điện thoại có hỗ trợ sạc nhanh 25W để giúp bạn sạc pin nhanh hơn, tiết kiệm thời gian tối ưu.&#13;
+&#13;
+Pin Samsung Galaxy A55&#13;
+&#13;
+Sử dụng bền bỉ theo năm tháng&#13;
+Samsung A55 được tích hợp sẵn chuẩn chống bụi và nước IP67, mang tới một “tấm khiên” bảo vệ vững chãi cho tổng thể của máy để bạn tự tin sử dụng, dễ dàng ghi lại những kỷ niệm đẹp và khám phá mọi điều thú vị trong cuộc sống.&#13;
+&#13;
+Kháng nước Samsung Galaxy A55&#13;
+&#13;
+Điện thoại còn đảm bảo sử dụng bền bỉ theo năm tháng khi hỗ trợ lên đến 4 phiên bản cập nhật hệ điều hành Android và 5 năm bản vá bảo mật. Điều này giúp tối ưu hóa vòng đời của Galaxy A55 5G bằng việc tích hợp đầy đủ các tính năng tiên tiến vào phiên bản cập nhật mới.&#13;
+&#13;
+Bảo mật toàn diện bởi hệ thống Samsung Knox&#13;
+Samsung Galaxy A55 5G được bảo vệ toàn diện bởi bảo mật cải tiến Samsung Knox Vault - nền tảng bảo mật đa tầng của Galaxy. Được biết, đây là giải pháp bảo mật tiên tiến dựa trên phần cứng, đáng tin cậy nhất trên toàn cầu, mang tới cho người dùng khả năng bảo vệ toàn diện, tạo ra một môi trường an toàn để người dùng thoải mái trải nghiệm thiết bị.&#13;
+&#13;
+Bảo mật Samsung Galaxy A55&#13;
+&#13;
+Đồng thời, để tăng cường bảo mật hơn, Samsung A55 có tính năng Auto Blocker, bộ công cụ bảo mật nâng cao để bạn tùy chỉnh kích hoạt. Theo đó, Auto Blocker mang tới tính năng ngăn chặn hành động cài đặt ứng dụng từ nguồn không an toàn, thực hiện các kiểm tra quan trọng nhanh chóng về bảo mật ứng dụng để kịp thời phát hiện và loại bỏ ngay phần mềm độc hại tiềm ẩn. Tính năng Chia sẻ nhanh (Quick Share) cũng cho bạn chia sẻ an toàn tệp tin chứa thông tin hoặc tài chính quan trọng.</description>
+    </product>
+    <product>
+        <id>MT01</id>
+        <name>ThinkPad T14s</name>
+        <category>Máy tính</category>
+        <quantity>15</quantity>
+        <price>27500000</price>
+        <exp-date>2028-04-01T00:00:00+07:00</exp-date>
+        <manafacturer>Lenovo</manafacturer>
+        <thumbnail>D:\Projects\Java\QLKH\src\main\resources\images\ThinkPad-T14s.png</thumbnail>
+        <description>Đánh giá chi tiết Lenovo ThinkPad T14s Gen 2 i5-1135G7 (20WM01T1VN)&#13;
+Lenovo ThinkPad T14s Gen 2 là chiếc laptop doanh nhân tiêu chuẩn mới với thiết kế cao cấp, di động, hiệu suất hàng đầu và các tính năng bảo mật thông minh. Đây sẽ là người bạn đồng hành hoàn hảo cho sự nghiệp thành công của bạn.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 1)&#13;
+&#13;
+Đẳng cấp ngay từ vẻ bề ngoài&#13;
+Lenovo ThinkPad T14s Gen 2 tiếp tục đi theo ngôn ngữ thiết kế đơn giản, nhưng không vì thế mà mất đi sự đẳng cấp của một chiếc laptop doanh nhân hàng đầu. Được làm từ khung nhôm cao cấp, chất lượng hoàn thiện tuyệt vời, ThinkPad T14s Gen 2 đẹp và sắc sảo đến từng đường nét. Bạn sẽ cảm nhận được sự cứng cáp, sang trọng khi nhìn hay chạm vào máy. Các chi tiết đặc trưng của dòng ThinkPad như logo đặt chéo, phím Touchpad nổi hay phím TrackPoint tạo nên tính nhận diện thương hiệu cao. Để bắt kịp xu thế, Lenovo ThinkPad T14s Gen 2 vô cùng nhỏ gọn với trọng lượng 1,36kg và độ mỏng 16,81mm, dễ dàng đồng hành cùng bạn trong công việc.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 2)&#13;
+&#13;
+Hiệu suất đáng tin cậy với chuẩn Intel Evo&#13;
+Bạn hoàn toàn yên tâm về hiệu suất của laptop Lenovo ThinkPad T14s Gen 2 khi chiếc laptop này đáp ứng được những tiêu chuẩn khắt khe từ Intel Evo. Đây là chuẩn laptop cao cấp dành cho những chiếc máy tính có hiệu suất cao, khả năng phản hồi nhanh chóng, thời lượng pin dài, mỏng nhẹ và màn hình tuyệt đẹp. ThinkPad T14s Gen 2 trang bị bộ vi xử lý Intel Core i5 1135G7 đi cùng 16GB RAM, 512GB SSD M.2, cho tốc độ xử lý cực nhanh cùng khả năng làm việc đa nhiệm hoàn hảo. Mọi công việc của bạn đều được thực hiện trơn tru mà không xảy ra bất cứ vấn đề gì.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 3)&#13;
+&#13;
+Tiết kiệm thời gian, nâng cao năng suất&#13;
+Lenovo ThinkPad T14s Gen 2 có đầy đủ các phương thức bảo mật sinh trắc học tiên tiến để bạn đăng nhập dễ dàng và nhanh chóng nhất. Đầu đọc vân tay được tích hợp ngay trên nút nguồn giúp bạn đăng nhập và khởi động máy chỉ với một cú chạm. Thậm chí bạn có thể đăng nhập không chạm nhờ camera hồng ngoại tích hợp tính năng nhận dạng khuôn mặt. Chế độ chờ hiện đại cho phép bạn đánh thức máy tính chỉ sau một giây, không cần phải chờ đợi.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 4)&#13;
+&#13;
+Tối ưu cho các cuộc họp trực tuyến&#13;
+Để bạn tham gia những cuộc họp online chất lượng nhất, Lenovo ThinkPad T14s Gen 2 tích hợp webcam HD rõ nét, giúp bạn luôn xuất hiện tự tin trong các cuộc họp. Ngoài ra trên máy tính còn có các phím chức năng F9-F11 để bạn trả lời, gọi và gác máy theo cách thật tiện lợi.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 5)&#13;
+&#13;
+Sẵn sàng đón nhận thử thách&#13;
+Không một doanh nghiệp nào muốn thường xuyên phải đổi máy tính. Lenovo ThinkPad T14s Gen 2 hiểu điều đó và đặt tính bền bỉ lên hàng đầu. Chiếc laptop nhỏ gọn của bạn đã vượt qua 12 bài kiểm tra cấp độ quân sự, đáp ứng hơn 200 bài kiểm tra chất lượng để đảm bảo có thể hoạt động trong các điều kiện khắc nghiệt nhất. Từ khí hậu lạnh như vùng Bắc Cực cho đến những cơn bão cát ở sa mạc, từ môi trường không trọng lực cho đến việc lỡ đổ nước hay đánh rơi máy, ThinkPad T14s luôn sẵn sàng đương đầu với các rủi ro thường ngày để đảm bảo đồng hành cùng bạn qua năm tháng.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 6)&#13;
+&#13;
+Giải pháp bảo mật hàng đầu&#13;
+Lenovo ThinkPad T14s Gen 2 tôn trọng sự riêng tư của bạn khi tích hợp bộ giải pháp bảo mật ThinkShield mới nhất. Toàn bộ thiết bị và dữ liệu, từ phần cứng đến phần mềm đều luôn đảm bảo an toàn. Laptop sẽ tự động khóa khi không thấy bạn đang ở gần cùng một loạt tính năng bảo mật thông minh khác. Tính bảo mật cao là một trong những lý do để người dùng chọn mua Lenovo ThinkPad T14s Gen 2.&#13;
+&#13;
+Lenovo ThinkPad T14s Gen 2 (ảnh 7)&#13;
+&#13;
+Luôn tràn đầy năng lượng&#13;
+Được xây dựng để giải quyết công việc mọi lúc mọi nơi, Lenovo ThinkPad T14s Gen 2 mang trên mình viên pin dung lượng cao 57Whr. Theo thông số từ nhà sản xuất, thời lượng pin sẽ kéo dài lên tới 14,6 giờ đồng hồ. Ngoài ra máy tính còn đi cùng sạc nhanh, giúp sạc đầy tới 80% pin chỉ sau 1 tiếng. Năng lượng sẽ luôn được đảm bảo mà bạn không cần phải quá quan tâm đến nguồn sạc. Hơn nữa, Lenovo ThinkPad T14s Gen 2 sử dụng cổng sạc chuẩn USB Type-C, loại kết nối phổ biến nhất thế giới hiện nay mà bạn có thể dễ dàng mượn những người xung quanh.</description>
+    </product>
+    <product>
+        <id>MF01</id>
+        <name>Áo Polo</name>
+        <category>Thời trang Nam</category>
+        <quantity>100</quantity>
+        <price>300000</price>
+        <exp-date>2026-04-01T00:00:00+07:00</exp-date>
+        <manafacturer>Uniqlo</manafacturer>
+        <thumbnail>D:\Projects\Java\QLKH\src\main\resources\images\polo.png</thumbnail>
+        <description>- Vải pique mịn, nhẹ được làm từ hỗn hợp cotton và polyester chống vón cục.&#13;
+- Với công nghệ DRY khô nhanh.&#13;
+- Thiết kế cơ bản đa năng và kiểu dáng dễ dàng tạo kiểu.&#13;
+- Cổ áo được cài khuy hoặc cởi ra trông rất đẹp.&#13;
+- Cổ tay áo có gân mang phong cách truyền thống.&#13;
+VẢI&#13;
+Thân: 72% Bông, 28% Polyeste ( 28% Sử Dụng Sợi Polyeste Tái Chế )/ Bo: 73% Polyeste, 27% Bông&#13;
+HƯỚNG DẪN GIẶT&#13;
+Giặt máy nước lạnh, Không giặt khô, Không sấy khô&#13;
+- Những hình ảnh sản phẩm có thể bao gồm những màu không có sẵn.</description>
+    </product>
+    <product>
+        <id>WF01</id>
+        <name>Váy dài</name>
+        <category>Thời trang Nữ</category>
+        <quantity>150</quantity>
+        <price>500000</price>
+        <exp-date>2026-04-05T00:00:00+07:00</exp-date>
+        <manafacturer>Uniqlo</manafacturer>
+        <thumbnail>D:\Projects\Java\QLKH\src\main\resources\images\dress.png</thumbnail>
+        <description>Chất liệu : 2 lớp, dạ text mỏng, lót bằng habutai&#13;Mô tả sản phẩm : Dáng xòe, 2 dây có chốt điều chỉnh, ly bung, kéo khóa sau lưng&#13;Thông số sản phẩm : (Dài trước)*(Vòng ngực)*(Vòng eo)&#13;Size S : 94.5/76.5 x 82 x 66 &#13;Size M : 96.5/78.5 x 86 x 70 &#13;Size L : 98.5/80.5 x 90 x 74 &#13;Size XL : 100.5/82.5 x 94 x 78 &#13;&#13;Hướng dẫn sử dụng và thông tin cảnh báo :&#13;Giặt tay hoặc giặt máy ở chế độ giặt nhẹ&#13;Giặt nước lạnh&#13;Giặt với sản phẩm cùng màu&#13;Lộn trái khi giặt&#13;Không tẩy&#13;Phơi trong bóng mát</description>
     </product>
 </products>
