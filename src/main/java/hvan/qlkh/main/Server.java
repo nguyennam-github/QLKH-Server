@@ -4,18 +4,14 @@
 
 package hvan.qlkh.main;
 
-import hvan.qlkh.models.Product;
 import hvan.qlkh.thread.Client;
 import hvan.qlkh.thread.ControlBus;
-import hvan.qlkh.thread.ProductsAPI;
 import java.io.IOException;
-import java.io.StringReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
-import javax.xml.bind.JAXB;
 import javax.xml.bind.JAXBException;
 
 /**
@@ -70,9 +66,5 @@ public class Server {
                 ex.printStackTrace();
             }
         }
-//        productsServer = new ServerSocket(6543);
-//        while(true) {
-//            new Thread(new ProductsAPI(productsServer, productsSocket)).start();
-//        }
     }
 }
