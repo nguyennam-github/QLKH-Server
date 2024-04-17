@@ -16,7 +16,6 @@ import java.io.OutputStreamWriter;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.Socket;
-import java.util.Date;
 import javax.xml.bind.JAXB;
 
 /**
@@ -70,7 +69,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Refresh/" + xmlString;
+                        response =  "Reset/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Create")){
@@ -90,7 +89,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Refresh/" + xmlString;
+                        response =  "Reset/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Update")){
@@ -111,7 +110,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Refresh/" + xmlString;
+                        response =  "Reset/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Delete")){
@@ -121,7 +120,7 @@ public class Client implements Runnable{
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Refresh/" + xmlString;
+                        response =  "Reset/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                 }
@@ -129,8 +128,6 @@ public class Client implements Runnable{
         } catch (IOException e) {
             isClosed = true;
             ControlBus.getInstance().remove(id);
-            System.out.println(this.id + " đã thoát");
-            ControlBus.getInstance().boardCast("global-message"+","+"---Client "+this.id+" đã thoát---");
         }
     }
     public void write(String message) throws IOException{
