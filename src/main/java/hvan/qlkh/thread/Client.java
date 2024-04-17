@@ -5,8 +5,11 @@
 package hvan.qlkh.thread;
 
 import hvan.qlkh.dao.ProductDAO;
+import hvan.qlkh.dao.UserDAO;
 import hvan.qlkh.models.Product;
 import hvan.qlkh.models.ProductList;
+import hvan.qlkh.models.User;
+import hvan.qlkh.models.UserList;
 import hvan.qlkh.utils.FileUtils;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -121,6 +124,65 @@ public class Client implements Runnable{
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
                         response =  "Reset/" + xmlString;
+                        ControlBus.getInstance().boardCast(response);
+                    }
+                    if(method.equals("Get-User")){
+                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        StringWriter sw = new StringWriter();
+                        JAXB.marshal(ul, sw);
+                        String xmlString = sw.toString();
+                        response =  "Reset-User/" + xmlString;
+                        ControlBus.getInstance().boardCast(response);
+                    }
+                    if(method.equals("Create-User")){
+                        StringBuilder sb = new StringBuilder();
+                        sb.append(payload);
+                        while (true) {     
+                            String line = is.readLine();
+                            if (line.trim().equals("")){
+                                break;
+                            }
+                            sb.append(line);
+                        }
+                        String userXML = sb.toString();
+                        User user = JAXB.unmarshal(new StringReader(userXML), User.class);
+                        UserDAO.getInstance().create(user);
+                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        StringWriter sw = new StringWriter();
+                        JAXB.marshal(ul, sw);
+                        String xmlString = sw.toString();
+                        response =  "Reset-User/" + xmlString;
+                        ControlBus.getInstance().boardCast(response);
+                    }
+                    if(method.equals("Update-User")){
+                        String username = payload.substring(0, payload.indexOf("/"));
+                        StringBuilder sb = new StringBuilder();
+                        sb.append(payload.substring(payload.indexOf("/") + 1));
+                        while (true) {     
+                            String line = is.readLine();
+                            if (line.trim().equals("")){
+                                break;
+                            }
+                            sb.append(line);
+                        }
+                        String userXML = sb.toString();
+                        User user = JAXB.unmarshal(new StringReader(userXML), User.class);
+                        UserDAO.getInstance().update(username, user);
+                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        StringWriter sw = new StringWriter();
+                        JAXB.marshal(ul, sw);
+                        String xmlString = sw.toString();
+                        response =  "Reset-User/" + xmlString;
+                        ControlBus.getInstance().boardCast(response);
+                    }
+                    if(method.equals("Delete-User")){
+                        String username = payload;
+                        UserDAO.getInstance().delete(username);
+                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        StringWriter sw = new StringWriter();
+                        JAXB.marshal(ul, sw);
+                        String xmlString = sw.toString();
+                        response =  "Reset-User/" + xmlString;
                         ControlBus.getInstance().boardCast(response);
                     }
                 }

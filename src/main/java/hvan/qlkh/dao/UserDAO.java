@@ -65,14 +65,8 @@ public final class UserDAO {
             .findAny()
             .orElse(null);
     }
-    /**
-     * thêm user vào users và lưu users vào file
-     *
-     * @param username
-     * @param password
-     */
-    public void create(String username, String password) {
-        User user = new User(username, password);
+
+    public void create(User user) {
         users.add(user);
         writeUsers();
     }
@@ -86,12 +80,12 @@ public final class UserDAO {
         }
         return false;
     }
-    public User update(User user, boolean read, boolean write){
+    public User update(String username, User user){
         User temp = null;
         for (User u: users){
-            if (u.getUsername().equals(user.getUsername())){
-                u.setRead(read);
-                u.setWrite(write);
+            if (u.getUsername().equals(username)){
+                u.setRead(user.isRead());
+                u.setWrite(user.isWrite());
                 temp = u;
                 writeUsers();
                 break;

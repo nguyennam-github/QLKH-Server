@@ -11,7 +11,7 @@
         <username>client5</username>
         <password>3677b23baa08f74c28aba07f0cb6554e</password>
         <register>2024-04-10T14:47:27.060+07:00</register>
-        <read>true</read>
+        <read>false</read>
         <write>false</write>
     </user>
     <user>
@@ -60,7 +60,7 @@
         <username>manager4</username>
         <password>0795151defba7a4b5dfa89170de46277</password>
         <register>2024-04-12T21:46:49.446+07:00</register>
-        <read>true</read>
+        <read>false</read>
         <write>false</write>
     </user>
     <user>
@@ -102,6 +102,20 @@
         <username>client4</username>
         <password>3677b23baa08f74c28aba07f0cb6554e</password>
         <register>2024-04-12T21:51:03.091+07:00</register>
+        <read>false</read>
+        <write>false</write>
+    </user>
+    <user>
+        <username>client6</username>
+        <password>3677b23baa08f74c28aba07f0cb6554e</password>
+        <register>2024-04-17T22:19:08.415+07:00</register>
+        <read>true</read>
+        <write>false</write>
+    </user>
+    <user>
+        <username>client7</username>
+        <password>3677b23baa08f74c28aba07f0cb6554e</password>
+        <register>2024-04-17T22:48:08.807+07:00</register>
         <read>false</read>
         <write>false</write>
     </user>

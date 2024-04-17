@@ -20,10 +20,8 @@ import javax.xml.bind.JAXBException;
  */
 public class Server {
 
-    public static Socket productsSocket;
-    public static ServerSocket productsServer;
-    public static Socket controlSocket;
-    public static ServerSocket controlServer;
+    public static Socket socket;
+    public static ServerSocket serverSocket;
     
     public static void main(String[] args) throws IOException, JAXBException, ClassNotFoundException {
         ServerSocket server = null;
@@ -50,8 +48,8 @@ public class Server {
             while (true) {
                 // Chấp nhận một yêu cầu kết nối từ phía Client.
                 // Đồng thời nhận được một đối tượng Socket tại server.
-                controlSocket = server.accept();
-                Client client = new Client(controlSocket, id++);
+                socket = server.accept();
+                Client client = new Client(socket, id++);
                 ControlBus.getInstance().add(client);
                 System.out.println("Số thread đang chạy là: " + ControlBus.getInstance().getLength());
                 executor.execute(client);
