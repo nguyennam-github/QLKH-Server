@@ -7,6 +7,11 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
 
+/**
+ *
+ * @author Nguyễn Phan Hoài Nam
+ */
+
 public class FileUtils {
 
     private FileUtils() {

@@ -23,8 +23,9 @@ import javax.xml.bind.JAXB;
 
 /**
  *
- * @author PC
+ * @author Nguyễn Phan Hoài Nam
  */
+
 public class Process implements Runnable{
 
     private Socket socket;

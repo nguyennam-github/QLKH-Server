@@ -12,8 +12,9 @@ import java.util.List;
 
 /**
  *
- * @author PC
+ * @author Nguyễn Phan Hoài Nam
  */
+
 public final class ProductDAO {
 
     private static final String XMLFILE_PATH = "product.xml";
