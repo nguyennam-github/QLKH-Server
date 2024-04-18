@@ -7,9 +7,7 @@ package hvan.qlkh.dao;
 import hvan.qlkh.models.Product;
 import hvan.qlkh.models.ProductList;
 import hvan.qlkh.utils.FileUtils;
-import java.math.BigDecimal;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 /**
@@ -51,10 +49,8 @@ public final class ProductDAO {
         if (products == null){
             products = new ArrayList<>();
             ProductList pl = (ProductList) FileUtils.readXMLFile(XMLFILE_PATH, ProductList.class);
-            if (pl != null){
-                if (pl.getProducts() != null) {
-                    products = pl.getProducts();
-                }
+            if (pl != null &&  (pl.getProducts() != null)) {
+                products = pl.getProducts();
             }
         }
         return products;
@@ -67,18 +63,11 @@ public final class ProductDAO {
             .orElse(null);
     }
 
-    public Product findByName(String name){
-        return readProducts().stream()
-            .filter(temp -> name.equals(temp.getName()))
-            .findAny()
-            .orElse(null);
-    }
-    
     public void create(Product product) {
         products.add(product);
         writeProducts();
     }
-    
+
     public Product update(String id, Product product){
         Product temp = null;
         for (Product p: products){
@@ -99,7 +88,7 @@ public final class ProductDAO {
         }
         return temp;
     }
-    
+
     public boolean delete(String id) {
         Product product = findById(id);
         if (product != null) {

@@ -24,42 +24,31 @@ public final class UserDAO {
         this.readUsers();
     }
 
-    public static /*synchronized*/ UserDAO getInstance(){
+    public static synchronized UserDAO getInstance(){
         if(instance == null){
             instance = new UserDAO();
         }
         return instance;
     }
 
-    /**
-     * Lưu các đối tượng user vào file user.xmladminadm
-     *
-     */
     public synchronized void writeUsers() {
         UserList ul = UserList.getInstance();
         ul.setUsers(users);
         FileUtils.writeXMLtoFile(XMLFILE_PATH, ul);
     }
 
-    /**
-     * Đọc các đối tượng user từ file user.xml
-     *
-     * @return list student
-     */
     public List<User> readUsers() {
         if (users == null){
             users = new ArrayList<>();
             UserList ul = (UserList) FileUtils.readXMLFile(XMLFILE_PATH, UserList.class);
-            if (ul != null) {
-                if (ul.getUsers() != null){
-                    users = ul.getUsers();
-                }
+            if (ul != null &&  (ul.getUsers() != null)){
+                users = ul.getUsers();
             }
         }
         return users;
     }
 
-    public User findByName(String username){
+    public User findByUsername(String username){
         return readUsers().stream()
             .filter(temp -> username.equals(temp.getUsername()))
             .findAny()
@@ -72,7 +61,7 @@ public final class UserDAO {
     }
 
     public boolean delete(String username) {
-        User user = findByName(username);
+        User user = findByUsername(username);
         if (user != null) {
             users.remove(user);
             writeUsers();

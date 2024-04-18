@@ -19,7 +19,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 @XmlRootElement(name = "user")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class User implements Serializable{
-    
+
     private static final long serialVersionUID = 1L;
     @XmlElement(name = "username")
     private String username;
@@ -82,5 +82,5 @@ public class User implements Serializable{
     public void setWrite(boolean write) {
         this.write = write;
     }
-    
+
 }

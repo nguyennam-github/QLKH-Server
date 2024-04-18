@@ -25,20 +25,23 @@ import javax.xml.bind.JAXB;
  *
  * @author PC
  */
-public class Client implements Runnable{
-    
-    private Socket client;
+public class Process implements Runnable{
+
+    private Socket socket;
     private int id;
     private BufferedReader is;
     private BufferedWriter os;
     private boolean isClosed;
+    private static final String PRODUCTS_XML_FILE = "product.xml";
+    private static final String USERS_XML_FILE = "user.xml";
+    private static final String METHOD_RESPONSE = "Reset/";
 
-    public Client(Socket client, int id) {
-        this.client = client;
+    public Process(Socket socket, int id) {
+        this.socket = socket;
         this.id = id;
         isClosed = false;
     }
-    
+
     public BufferedReader getIs() {
         return is;
     }
@@ -50,41 +53,41 @@ public class Client implements Runnable{
     public int getId() {
         return id;
     }
-    
+
     @Override
     public void run() {
         try {
-            
-            is = new BufferedReader(new InputStreamReader(client.getInputStream()));
-            os = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()));
-            
+
+            is = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+            os = new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+
             String request;
             String response;
-            
+
             while (!isClosed) {
-                
+
                 request = is.readLine();
-                
+
                 if (request == null) {
                     break;
                 }
                 else{
-                    
+
                     String method = request.substring(0, request.indexOf("/"));
                     String payload = request.substring(request.indexOf("/") + 1);
-                    
+
                     if(method.equals("Get")){
-                        ProductList pl = (ProductList) FileUtils.readXMLFile("product.xml", ProductList.class);
+                        ProductList pl = (ProductList) FileUtils.readXMLFile(PRODUCTS_XML_FILE, ProductList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset/" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        response =  METHOD_RESPONSE + xmlString;
+                        ProcessBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Create")){
                         StringBuilder sb = new StringBuilder();
                         sb.append(payload);
-                        while (true) {     
+                        while (true) {
                             String line = is.readLine();
                             if (line.trim().equals("")){
                                 break;
@@ -94,18 +97,18 @@ public class Client implements Runnable{
                         String productXML = sb.toString();
                         Product product = JAXB.unmarshal(new StringReader(productXML), Product.class);
                         ProductDAO.getInstance().create(product);
-                        ProductList pl = (ProductList) FileUtils.readXMLFile("product.xml", ProductList.class);
+                        ProductList pl = (ProductList) FileUtils.readXMLFile(PRODUCTS_XML_FILE, ProductList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset/" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        response =  METHOD_RESPONSE + xmlString;
+                        ProcessBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Update")){
                         String productId = payload.substring(0, payload.indexOf("/"));
                         StringBuilder sb = new StringBuilder();
                         sb.append(payload.substring(payload.indexOf("/") + 1));
-                        while (true) {     
+                        while (true) {
                             String line = is.readLine();
                             if (line.trim().equals("")){
                                 break;
@@ -115,36 +118,36 @@ public class Client implements Runnable{
                         String productXML = sb.toString();
                         Product product = JAXB.unmarshal(new StringReader(productXML), Product.class);
                         ProductDAO.getInstance().update(productId, product);
-                        ProductList pl = (ProductList) FileUtils.readXMLFile("product.xml", ProductList.class);
+                        ProductList pl = (ProductList) FileUtils.readXMLFile(PRODUCTS_XML_FILE, ProductList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset/" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        response =  METHOD_RESPONSE + xmlString;
+                        ProcessBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Delete")){
                         String productId = payload;
                         ProductDAO.getInstance().delete(productId);
-                        ProductList pl = (ProductList) FileUtils.readXMLFile("product.xml", ProductList.class);
+                        ProductList pl = (ProductList) FileUtils.readXMLFile(PRODUCTS_XML_FILE, ProductList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(pl, sw);
                         String xmlString = sw.toString();
-                        response =  "Reset/" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        response =  METHOD_RESPONSE + xmlString;
+                        ProcessBus.getInstance().boardCast(response);
                     }
-                    
+
                     if(method.equals("Get-User")){
-                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        UserList ul = (UserList) FileUtils.readXMLFile(USERS_XML_FILE, UserList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
                         response =  "Reset-User//" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        ProcessBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Create-User")){
                         StringBuilder sb = new StringBuilder();
                         sb.append(payload);
-                        while (true) {     
+                        while (true) {
                             String line = is.readLine();
                             if (line.trim().equals("")){
                                 break;
@@ -154,18 +157,18 @@ public class Client implements Runnable{
                         String userXML = sb.toString();
                         User user = JAXB.unmarshal(new StringReader(userXML), User.class);
                         UserDAO.getInstance().create(user);
-                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        UserList ul = (UserList) FileUtils.readXMLFile(USERS_XML_FILE, UserList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
                         response =  "Reset-User//" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        ProcessBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Update-User")){
                         String username = payload.substring(0, payload.indexOf("/"));
                         StringBuilder sb = new StringBuilder();
                         sb.append(payload.substring(payload.indexOf("/") + 1));
-                        while (true) {     
+                        while (true) {
                             String line = is.readLine();
                             if (line.trim().equals("")){
                                 break;
@@ -175,28 +178,28 @@ public class Client implements Runnable{
                         String userXML = sb.toString();
                         User user = JAXB.unmarshal(new StringReader(userXML), User.class);
                         UserDAO.getInstance().update(username, user);
-                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        UserList ul = (UserList) FileUtils.readXMLFile(USERS_XML_FILE, UserList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
                         response =  "Reset-User/" + username + "/" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        ProcessBus.getInstance().boardCast(response);
                     }
                     if(method.equals("Delete-User")){
                         String username = payload;
                         UserDAO.getInstance().delete(username);
-                        UserList ul = (UserList) FileUtils.readXMLFile("user.xml", UserList.class);
+                        UserList ul = (UserList) FileUtils.readXMLFile(USERS_XML_FILE, UserList.class);
                         StringWriter sw = new StringWriter();
                         JAXB.marshal(ul, sw);
                         String xmlString = sw.toString();
                         response =  "Reset-User/" + username + "/" + xmlString;
-                        ControlBus.getInstance().boardCast(response);
+                        ProcessBus.getInstance().boardCast(response);
                     }
                 }
             }
         } catch (IOException e) {
             isClosed = true;
-            ControlBus.getInstance().remove(id);
+            ProcessBus.getInstance().remove(id);
         }
     }
     public void write(String message) throws IOException{

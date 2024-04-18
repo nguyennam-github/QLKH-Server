@@ -25,7 +25,7 @@ public class UserList {
     private UserList() {
     }
 
-    public static UserList getInstance(){
+    public static synchronized UserList getInstance(){
         if (ul == null){
             ul = new UserList();
         }

@@ -19,7 +19,7 @@ public class FileUtils {
             jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
             File xmlFile = new File(fileName);
             jaxbMarshaller.marshal(object, xmlFile);
-        } catch (JAXBException e) {
+        } catch (JAXBException ex) {
         }
     }
 
@@ -29,7 +29,7 @@ public class FileUtils {
             JAXBContext jaxbContext = JAXBContext.newInstance(clazz);
             Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
             return jaxbUnmarshaller.unmarshal(xmlFile);
-        } catch (JAXBException e) {
+        } catch (JAXBException ex) {
         }
         return null;
     }

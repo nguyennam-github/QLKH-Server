@@ -8,16 +8,37 @@
         <write>true</write>
     </user>
     <user>
-        <username>client5</username>
-        <password>3677b23baa08f74c28aba07f0cb6554e</password>
-        <register>2024-04-10T14:47:27.060+07:00</register>
-        <read>false</read>
+        <username>manager1</username>
+        <password>0795151defba7a4b5dfa89170de46277</password>
+        <register>2024-04-12T00:42:54.261+07:00</register>
+        <read>true</read>
+        <write>true</write>
+    </user>
+    <user>
+        <username>manager2</username>
+        <password>0795151defba7a4b5dfa89170de46277</password>
+        <register>2024-04-12T21:46:12.983+07:00</register>
+        <read>true</read>
+        <write>true</write>
+    </user>
+    <user>
+        <username>manager3</username>
+        <password>0795151defba7a4b5dfa89170de46277</password>
+        <register>2024-04-13T21:46:27.095+07:00</register>
+        <read>true</read>
         <write>false</write>
     </user>
     <user>
-        <username>manager</username>
+        <username>manager4</username>
         <password>0795151defba7a4b5dfa89170de46277</password>
-        <register>2024-04-12T00:42:54.261+07:00</register>
+        <register>2024-04-14T21:46:49.446+07:00</register>
+        <read>true</read>
+        <write>false</write>
+    </user>
+    <user>
+        <username>manager5</username>
+        <password>0795151defba7a4b5dfa89170de46277</password>
+        <register>2024-04-16T21:47:08.565+07:00</register>
         <read>true</read>
         <write>true</write>
     </user>
@@ -38,49 +59,28 @@
     <user>
         <username>seller3</username>
         <password>1e4970ada8c054474cda889490de3421</password>
-        <register>2024-04-12T20:28:34.868+07:00</register>
+        <register>2024-04-15T20:28:34.868+07:00</register>
         <read>true</read>
         <write>false</write>
-    </user>
-    <user>
-        <username>manager2</username>
-        <password>0795151defba7a4b5dfa89170de46277</password>
-        <register>2024-04-12T21:46:12.983+07:00</register>
-        <read>true</read>
-        <write>false</write>
-    </user>
-    <user>
-        <username>manager3</username>
-        <password>0795151defba7a4b5dfa89170de46277</password>
-        <register>2024-04-12T21:46:27.095+07:00</register>
-        <read>true</read>
-        <write>true</write>
-    </user>
-    <user>
-        <username>manager4</username>
-        <password>0795151defba7a4b5dfa89170de46277</password>
-        <register>2024-04-12T21:46:49.446+07:00</register>
-        <read>false</read>
-        <write>false</write>
-    </user>
-    <user>
-        <username>manager5</username>
-        <password>0795151defba7a4b5dfa89170de46277</password>
-        <register>2024-04-12T21:47:08.565+07:00</register>
-        <read>true</read>
-        <write>true</write>
     </user>
     <user>
         <username>seller4</username>
         <password>1e4970ada8c054474cda889490de3421</password>
-        <register>2024-04-12T21:49:14.262+07:00</register>
+        <register>2024-04-15T21:49:14.262+07:00</register>
         <read>true</read>
         <write>false</write>
     </user>
     <user>
         <username>seller5</username>
         <password>1e4970ada8c054474cda889490de3421</password>
-        <register>2024-04-12T21:49:27.669+07:00</register>
+        <register>2024-04-17T21:49:27.669+07:00</register>
+        <read>true</read>
+        <write>false</write>
+    </user>
+    <user>
+        <username>client1</username>
+        <password>3677b23baa08f74c28aba07f0cb6554e</password>
+        <register>2024-04-12T23:40:39.179+07:00</register>
         <read>true</read>
         <write>false</write>
     </user>
@@ -94,14 +94,21 @@
     <user>
         <username>client3</username>
         <password>3677b23baa08f74c28aba07f0cb6554e</password>
-        <register>2024-04-12T21:50:46.412+07:00</register>
+        <register>2024-04-13T21:50:46.412+07:00</register>
         <read>false</read>
         <write>false</write>
     </user>
     <user>
         <username>client4</username>
         <password>3677b23baa08f74c28aba07f0cb6554e</password>
-        <register>2024-04-12T21:51:03.091+07:00</register>
+        <register>2024-04-14T21:51:03.091+07:00</register>
+        <read>true</read>
+        <write>false</write>
+    </user>
+    <user>
+        <username>client5</username>
+        <password>3677b23baa08f74c28aba07f0cb6554e</password>
+        <register>2024-04-14T14:47:27.060+07:00</register>
         <read>true</read>
         <write>false</write>
     </user>
@@ -120,17 +127,17 @@
         <write>false</write>
     </user>
     <user>
-        <username>client0</username>
+        <username>client8</username>
         <password>3677b23baa08f74c28aba07f0cb6554e</password>
-        <register>2024-04-17T23:40:39.179+07:00</register>
-        <read>true</read>
+        <register>2024-04-18T23:41:52.737+07:00</register>
+        <read>false</read>
         <write>false</write>
     </user>
     <user>
         <username>client9</username>
         <password>3677b23baa08f74c28aba07f0cb6554e</password>
-        <register>2024-04-17T23:41:52.737+07:00</register>
-        <read>false</read>
+        <register>2024-04-18T23:41:52.737+07:00</register>
+        <read>true</read>
         <write>false</write>
     </user>
 </users>
