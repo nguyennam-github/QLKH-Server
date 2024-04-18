@@ -32,7 +32,7 @@ public class App {
         System.out.println("Server is waiting to accept user...");
 
         try {
-            server = new ServerSocket(7777);
+            server = new ServerSocket(3000);
         } catch (IOException e) {
             System.exit(1);
         }

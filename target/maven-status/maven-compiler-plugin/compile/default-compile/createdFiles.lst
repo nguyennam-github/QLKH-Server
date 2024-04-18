@@ -1,7 +1,9 @@
 hvan\qlkh\dao\ProductDAO.class
 hvan\qlkh\models\Product.class
+hvan\qlkh\services\ProcessBus.class
 hvan\qlkh\models\ProductList.class
 hvan\qlkh\models\UserList.class
+hvan\qlkh\services\Process.class
 hvan\qlkh\dao\UserDAO.class
 hvan\qlkh\models\User.class
 hvan\qlkh\main\App.class
