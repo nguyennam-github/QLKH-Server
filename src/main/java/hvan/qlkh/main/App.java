@@ -7,10 +7,9 @@ package hvan.qlkh.main;
 import hvan.qlkh.services.Process;
 import hvan.qlkh.services.ProcessBus;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.Date;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
@@ -23,17 +22,19 @@ import java.util.concurrent.TimeUnit;
 public class App {
 
 
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args){
 
         Socket socket;
+        int port = 3000;
         ServerSocket server = null;
         int id = 0;
 
-        System.out.println("Server is waiting to accept user...");
+        System.out.println("Server is listening on port : " + port + "!");
 
         try {
-            server = new ServerSocket(3000);
-        } catch (IOException e) {
+            server = new ServerSocket(port);
+        } catch (IOException ex) {
+            System.err.println("An error occured on the server!");
             System.exit(1);
         }
 
@@ -47,18 +48,19 @@ public class App {
             try {
                 while (true) {
                     socket = server.accept();
-                    Process client = new Process(socket, id++);
+                    id++;
+                    Process client = new Process(socket, id);
                     ProcessBus.getInstance().add(client);
-                    System.out.println("Process with id=" + id + "is running");
+                    System.out.println("Process with id = " + id + " connected on " + new Date().toString());
                     executor.execute(client);
                 }
             } catch (IOException ex) {
-                Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
+                System.err.println("An error occured on the server!");
             } finally {
                 try {
                     server.close();
                 } catch (IOException ex) {
-                    Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
+                    System.err.println("An error occured on the server!");
                 }
             }
         }

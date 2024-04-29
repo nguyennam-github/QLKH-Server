@@ -43,7 +43,7 @@ public class ProcessBus {
             try {
                 process.write(message);
             } catch (IOException ex) {
-                ex.printStackTrace();
+                System.err.println("Unable to send message to clients!");
             }
         }
     }

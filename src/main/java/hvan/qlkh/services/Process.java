@@ -19,6 +19,7 @@ import java.io.OutputStreamWriter;
 import java.io.StringReader;
 import java.io.StringWriter;
 import java.net.Socket;
+import java.util.Date;
 import javax.xml.bind.JAXB;
 
 /**
@@ -84,6 +85,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  METHOD_RESPONSE + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Process with id = " + id + " get/products on " + new Date().toString());
                     }
                     if(method.equals("Create")){
                         StringBuilder sb = new StringBuilder();
@@ -104,6 +106,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  METHOD_RESPONSE + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Process with id = " + id + " create/products/${id = " + product.getId() + "} on " + new Date().toString());
                     }
                     if(method.equals("Update")){
                         String productId = payload.substring(0, payload.indexOf("/"));
@@ -125,6 +128,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  METHOD_RESPONSE + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Process with id = " + id + " update/products/${id = " + productId + " -> " + product.getId() + "} on " + new Date().toString());
                     }
                     if(method.equals("Delete")){
                         String productId = payload;
@@ -135,6 +139,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  METHOD_RESPONSE + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Process with id = " + id + " delete/products/${id = " + productId + "} on " + new Date().toString());
                     }
 
                     if(method.equals("Get-User")){
@@ -144,6 +149,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  "Reset-User//" + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Process with id = " + id + " get/users on " + new Date().toString());
                     }
                     if(method.equals("Create-User")){
                         StringBuilder sb = new StringBuilder();
@@ -164,6 +170,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  "Reset-User//" + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Process with id = " + id + " create/users/${username = " + user.getUsername() + "} on " + new Date().toString());
                     }
                     if(method.equals("Update-User")){
                         String username = payload.substring(0, payload.indexOf("/"));
@@ -185,6 +192,7 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  "Reset-User/" + username + "/" + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Admin update/users/${username = " + username + "} on " + new Date().toString());
                     }
                     if(method.equals("Delete-User")){
                         String username = payload;
@@ -195,11 +203,13 @@ public class Process implements Runnable{
                         String xmlString = sw.toString();
                         response =  "Reset-User/" + username + "/" + xmlString;
                         ProcessBus.getInstance().boardCast(response);
+                        System.out.println("Admin delete/users/${username = " + username + "} on " + new Date().toString());
                     }
                 }
             }
         } catch (IOException e) {
             isClosed = true;
+            System.out.println("Process with id = " + id + " disconnected on " + new Date().toString());
             ProcessBus.getInstance().remove(id);
         }
     }

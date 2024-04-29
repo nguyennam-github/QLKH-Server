@@ -140,11 +140,4 @@
         <read>true</read>
         <write>false</write>
     </user>
-    <user>
-        <username>username</username>
-        <password>7bc6c31880aeda581aa34e218af25753</password>
-        <register>2024-04-19T14:42:16.438+07:00</register>
-        <read>false</read>
-        <write>false</write>
-    </user>
 </users>
